@@ -1,0 +1,123 @@
+/* ------------------------
+          Home
+------------------------ */
+
+a {
+    color: #00b2a9;
+}
+
+a.light {
+    color: #FFDDDD;
+}
+
+.header {
+    background : #00b2a9;
+    color: white;
+    position: relative;
+    overflow: auto;
+}
+
+.uploads {
+  margin: 40px 0 20px;
+}
+
+.uploads a {
+  margin: 0 5px;
+}
+
+.logo {
+    max-width: 425px;
+    padding: 25px;
+    float: center;
+	margin: 20px 0 30px
+}
+
+.logo img {
+    width: 100%;
+}
+
+.title {
+    padding-top: 15px;
+}
+
+.title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+table {
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+#success {
+  border-left: 4px solid #3c763d;
+  padding: 10px;
+}
+
+.logged {
+    margin-top: -35px;
+}
+
+.subtitle {
+    margin: -7px 0 15px;
+    text-indent: 11px;
+	color: #FDFDFD
+}
+
+
+#form {
+  margin: 0 0 20px;
+}
+
+#form .btn {
+    margin: 0 10px;
+}
+
+.delete {
+  margin-right: 10px;
+}
+
+#form textarea {
+  padding: 10px;
+    height: 200px;
+}
+
+.Custom55Tab .secondaryPalette, .individualPalette .Custom55Block .secondaryPalette {
+    background-color: #fff !important;
+    border-color: #fff;
+}
+
+.tags {
+    width: 100
+}
+
+.actions-col {
+  width: 100px;
+}
+
+/* ------------------------
+          Home
+------------------------ */
+
+
+body.home {
+  background: #00b2a9;
+  color: #ffffff;
+}
+
+.wrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.wrapper.mobile {
+  margin-top: 20px;
+}
+
+.wrapper.mobile img {
+  padding: 30px 0 20px;
+}
+.background{
+  background: #00b2a9	
+}
