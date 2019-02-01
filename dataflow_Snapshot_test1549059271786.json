@@ -1,0 +1,80 @@
+{
+  "notificationLevel": "",
+  "workflowDefinition": {
+    "sfdcDigest_Opportunity": {
+      "action": "sfdcDigest",
+      "parameters": {
+        "fields": [
+          {
+            "name": "Amount"
+          },
+          {
+            "name": "CloseDate"
+          },
+          {
+            "name": "Id"
+          },
+          {
+            "name": "Name"
+          },
+          {
+            "name": "StageName"
+          },
+          {
+            "name": "IsWon"
+          },
+          {
+            "name": "LastViewedDate"
+          },
+          {
+            "name": "LastModifiedDate"
+          },
+          {
+            "name": "LastActivityDate"
+          }
+        ],
+        "object": "Opportunity"
+      }
+    },
+    "register_Opportunity_weekly": {
+      "action": "sfdcRegister",
+      "parameters": {
+        "name": "Opps_weekly",
+        "alias": "Opps_weekly",
+        "source": "compute_now"
+      }
+    },
+    "compute_now": {
+      "action": "computeExpression",
+      "parameters": {
+        "source": "sfdcDigest_Opportunity",
+        "mergeWithSource": true,
+        "computedFields": [
+          {
+            "name": "compute_now",
+            "saqlExpression": "now()",
+            "format": "MM:dd:yyyy",
+            "label": "compute_now",
+            "type": "Date"
+          }
+        ]
+      }
+    }
+  },
+  "_type": "dataflow",
+  "_lastModifiedBy": {
+    "_type": "user",
+    "name": "Joseph Yelle",
+    "_uid": "0056A000000yYKGQA2",
+    "profilePhotoUrl": "/img/userprofile/default_profile_45_v2.png"
+  },
+  "description": "Snapshot test",
+  "MasterLabel": "Snapshot test",
+  "nextRun": "",
+  "WorkflowStatus": "Inactive",
+  "isDeletable": true,
+  "DataflowType": "USER",
+  "name": "Snapshot_test",
+  "_url": "/insights/internal_api/v1.0/esObject/workflow/02K6A000000YM2HUAW/json",
+  "_uid": "02K6A000000YM2HUAW"
+}
