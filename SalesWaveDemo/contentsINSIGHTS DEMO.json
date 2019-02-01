@@ -1,0 +1,3010 @@
+{
+  "allowPreview": true,
+  "assetSharingUrl": "https://analyticsccdemo.my.salesforce.com/analytics/wave/dashboard?assetId=0FK6A000000Uq64WAC&orgId=00D6A000000v6bX&loginHost=na50.salesforce.com&urlType=sharing",
+  "createdBy": {
+    "id": "0056A000000yYKGQA2",
+    "name": "Joseph Yelle",
+    "profilePhotoUrl": "https://analyticsccdemo--c.na50.content.force.com/profilephoto/005/T"
+  },
+  "createdDate": "2018-04-20T16:58:17.000Z",
+  "datasets": [
+    {
+      "id": "0Fb6A0000004XYcSAM",
+      "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+      "name": "Marketing_Campaign_GroceryStore",
+      "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+    }
+  ],
+  "dateVersion": 1,
+  "description": "CDB",
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 14935,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJ6A0000008VSuWAM",
+      "lastModifiedDate": "2018-05-07T13:40:32.000Z",
+      "url": "/services/data/v44.0/wave/lenses/0FK6A000000Uq64WAC/files/0FJ6A0000008VSuWAM"
+    }
+  ],
+  "folder": {
+    "id": "00l6A000000p7rUQAQ",
+    "label": "DEMO TouchAnalytics - Presentation",
+    "name": "DEMO_TouchAnalytics_Presentation",
+    "url": "/services/data/v44.0/wave/folders/00l6A000000p7rUQAQ"
+  },
+  "id": "0FK6A000000Uq64WAC",
+  "label": "INSIGHTS DEMO",
+  "lastAccessedDate": "2018-11-14T21:35:57.000Z",
+  "lastModifiedBy": {
+    "id": "0056A000000yYKGQA2",
+    "name": "Joseph Yelle",
+    "profilePhotoUrl": "https://analyticsccdemo--c.na50.content.force.com/profilephoto/005/T"
+  },
+  "lastModifiedDate": "2018-05-07T13:40:28.000Z",
+  "mobileDisabled": false,
+  "name": "INSIGHTS_DEMO2",
+  "permissions": {
+    "manage": true,
+    "modify": true,
+    "view": true
+  },
+  "refreshDate": "2018-04-18T01:21:45.000Z",
+  "state": {
+    "dataSourceLinks": [],
+    "filters": [],
+    "gridLayouts": [
+      {
+        "name": "Desktop",
+        "numColumns": 16,
+        "pages": [
+          {
+            "label": "Untitled",
+            "name": "dfdbd8a9-8022-47d0-be6c-0d88f6dee144",
+            "navigationHidden": false,
+            "widgets": [
+              {
+                "colspan": 4,
+                "column": 6,
+                "name": "Dashboard_Title",
+                "row": 1,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 6,
+                "name": "Dashboard_Description",
+                "row": 2,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 1,
+                "name": "Description_Container",
+                "row": 1,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(223, 223, 223, 0.17)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 1,
+                "name": "Filters_Title",
+                "row": 3,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(9, 26, 62, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 1,
+                "name": "Date_Filter_1",
+                "row": 4,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(230, 236, 242, 0)",
+                  "borderColor": "rgba(230, 236, 242, 0)",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 1,
+                "name": "Filter_1",
+                "row": 8,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 1,
+                "name": "Filter_2",
+                "row": 9,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(230, 236, 242, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 1,
+                "name": "Filter_3",
+                "row": 10,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(230, 236, 242, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 1,
+                "name": "Filter_4",
+                "row": 11,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(230, 236, 242, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 1,
+                "name": "Filter_5",
+                "row": 12,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(230, 236, 242, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 1,
+                "name": "Filter_6",
+                "row": 13,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(230, 236, 242, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 1,
+                "name": "Filter_7",
+                "row": 14,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(230, 236, 242, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 1,
+                "name": "Filter_8",
+                "row": 15,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(230, 236, 242, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 1,
+                "name": "Filters_Container",
+                "row": 3,
+                "rowspan": 20,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0.41)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [],
+                  "borderRadius": 8,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 3,
+                "name": "Overview_Title",
+                "row": 3,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(51, 87, 121, 0)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ]
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 3,
+                "name": "KPI_1",
+                "row": 4,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 6,
+                "name": "KPI_2",
+                "row": 4,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 9,
+                "name": "KPI_3",
+                "row": 4,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 12,
+                "name": "KPI_4",
+                "row": 4,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 3,
+                "name": "KPI_Title_1",
+                "row": 5,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 6,
+                "name": "KPI_Title_2",
+                "row": 5,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 9,
+                "name": "KPI_Title_3",
+                "row": 5,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 12,
+                "name": "KPI_Title_4",
+                "row": 5,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 3,
+                "name": "Header_Container",
+                "row": 3,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderColor": "#5C7A99",
+                  "borderEdges": [],
+                  "borderRadius": 8,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 3,
+                "name": "Measure_Text",
+                "row": 7,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 5,
+                "name": "Measure_List",
+                "row": 7,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 9,
+                "name": "Sort_Results",
+                "row": 7,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 11,
+                "name": "Sort_Toggle",
+                "row": 7,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderEdges": [],
+                  "borderRadius": 16
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 3,
+                "name": "Groupings_Container",
+                "row": 7,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 3,
+                "name": "Chart_Title_1",
+                "row": 19,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 3,
+                "name": "Chart_1",
+                "row": 20,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 6,
+                "name": "Chart_Title_2",
+                "row": 19,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(242, 246, 250, 0)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 6,
+                "name": "Chart_2",
+                "row": 20,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 9,
+                "name": "Chart_Title_3",
+                "row": 19,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(242, 246, 250, 0)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 9,
+                "name": "Chart_3",
+                "row": 20,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 12,
+                "name": "Chart_Title_4",
+                "row": 19,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(242, 246, 250, 0)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 12,
+                "name": "Chart_4",
+                "row": 20,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 3,
+                "name": "Chart_Title_5",
+                "row": 26,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 3,
+                "name": "Chart_5",
+                "row": 27,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 6,
+                "name": "Chart_Title_6",
+                "row": 26,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 6,
+                "name": "Chart_6",
+                "row": 27,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 9,
+                "name": "Chart_Title_7",
+                "row": 26,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 9,
+                "name": "Chart_7",
+                "row": 27,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 12,
+                "name": "Chart_Title_8",
+                "row": 26,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 12,
+                "name": "Chart_8",
+                "row": 27,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 3,
+                "name": "Additional_Feature_Title_1",
+                "row": 8,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 3,
+                "name": "Additional_Feature_Chart_1",
+                "row": 10,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 9,
+                "name": "Additional_Feature_Title_2",
+                "row": 8,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 12,
+                "name": "Additional_Feature_List_2",
+                "row": 9,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0.41)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 9,
+                "name": "Additional_Feature_Chart_2",
+                "row": 10,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 3,
+                "name": "Raw_Details_Title",
+                "row": 34,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 3,
+                "name": "Raw_Details_Chart",
+                "row": 35,
+                "rowspan": 9,
+                "widgetStyle": {
+                  "backgroundColor": "#C5D3E0",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 3,
+                "name": "Chart_Container",
+                "row": 8,
+                "rowspan": 25,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 9,
+                "name": "listselector_1",
+                "row": 9,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0.41)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 3,
+                "name": "listselector_2",
+                "row": 9,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0.41)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 1,
+                "name": "dateselector_1",
+                "row": 5,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 1,
+                "name": "dateselector_2",
+                "row": 6,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 1,
+                "name": "Custom_Filter_1",
+                "row": 7,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "normal",
+        "selectors": [
+          "minWidth(1000)"
+        ],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "rgb(9, 26, 62)",
+          "cellSpacingX": 4,
+          "cellSpacingY": 4,
+          "fit": "fitwidth",
+          "image": {
+            "name": "TA_Logo_transparentArtboard_1ASPECT3",
+            "namespace": "analyticscc"
+          }
+        },
+        "version": 1
+      }
+    ],
+    "layouts": [],
+    "steps": {
+      "Static_Group": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Region&quot;,&quot;expression&quot;:&quot;&#39;Region&#39;&quot;,&quot;alias&quot;:&quot;Region&quot;}",
+          "{&quot;display&quot;:&quot;Country&quot;,&quot;value&quot;:&quot;Country&quot;,&quot;expression&quot;:&quot;&#39;Country&#39;&quot;,&quot;alias&quot;:&quot;Country&quot;}",
+          "{&quot;display&quot;:&quot;City&quot;,&quot;value&quot;:&quot;City&quot;,&quot;expression&quot;:&quot;&#39;City&#39;&quot;,&quot;alias&quot;:&quot;City&quot;}",
+          "{&quot;display&quot;:&quot;StoreSize&quot;,&quot;value&quot;:&quot;StoreSize&quot;,&quot;expression&quot;:&quot;&#39;StoreSize&#39;&quot;,&quot;alias&quot;:&quot;StoreSize&quot;}",
+          "{&quot;display&quot;:&quot;VP Name&quot;,&quot;value&quot;:&quot;VP_Name&quot;,&quot;expression&quot;:&quot;&#39;VP_Name&#39;&quot;,&quot;alias&quot;:&quot;VP_Name&quot;}",
+          "{&quot;display&quot;:&quot;Owner Name&quot;,&quot;value&quot;:&quot;Owner_Name&quot;,&quot;expression&quot;:&quot;&#39;Owner_Name&#39;&quot;,&quot;alias&quot;:&quot;Owner_Name&quot;}",
+          "{&quot;display&quot;:&quot;Manager Name&quot;,&quot;value&quot;:&quot;Manager_Name&quot;,&quot;expression&quot;:&quot;&#39;Manager_Name&#39;&quot;,&quot;alias&quot;:&quot;Manager_Name&quot;}",
+          "{&quot;display&quot;:&quot;StoreLayout&quot;,&quot;value&quot;:&quot;StoreLayout&quot;,&quot;expression&quot;:&quot;&#39;StoreLayout&#39;&quot;,&quot;alias&quot;:&quot;StoreLayout&quot;}"
+        ]
+      },
+      "Static_Timeline": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;Date (Quarter)&quot;,&quot;alias&quot;:&quot;Date_Year~~~Date_Quarter&quot;,&quot;expression&quot;:&quot;&#39;Date_Year&#39; + &#92;&quot;~~~&#92;&quot; + &#39;Date_Quarter&#39;&quot;,&quot;value&quot;:[&quot;Date_Year&quot;,&quot;Date_Quarter&quot;]}",
+          "{&quot;display&quot;:&quot;Date (Month)&quot;,&quot;alias&quot;:&quot;Date_Year~~~Date_Month&quot;,&quot;expression&quot;:&quot;&#39;Date_Year&#39; + &#92;&quot;~~~&#92;&quot; + &#39;Date_Month&#39;&quot;,&quot;value&quot;:[&quot;Date_Year&quot;,&quot;Date_Month&quot;]}",
+          "{&quot;display&quot;:&quot;Date (Week)&quot;,&quot;alias&quot;:&quot;Date_Year~~~Date_Week&quot;,&quot;expression&quot;:&quot;&#39;Date_Year&#39; + &#92;&quot;~~~&#92;&quot; + &#39;Date_Week&#39;&quot;,&quot;value&quot;:[&quot;Date_Year&quot;,&quot;Date_Week&quot;]}",
+          "{&quot;display&quot;:&quot;Date (Day)&quot;,&quot;alias&quot;:&quot;Date_Year~~~Date_Month~~~Date_Day&quot;,&quot;expression&quot;:&quot;&#39;Date_Year&#39; + &#92;&quot;~~~&#92;&quot; + &#39;Date_Month&#39; + &#92;&quot;~~~&#92;&quot; + &#39;Date_Day&#39;&quot;,&quot;value&quot;:[&quot;Date_Year&quot;,&quot;Date_Month&quot;,&quot;Date_Day&quot;]}"
+        ]
+      },
+      "Yoy": {
+        "broadcastFacet": false,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;Marketing_Campaign_GroceryStore&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = filter q by {{column(Grouping_1.selection, [&#92;&quot;Region&#92;&quot;]).asEquality(&#92;&quot;Region&#92;&quot;)}};q = filter q by {{column(Grouping_2.selection, [&#92;&quot;Country&#92;&quot;]).asEquality(&#92;&quot;Country&#92;&quot;)}};q = filter q by {{column(Grouping_3.selection, [&#92;&quot;City&#92;&quot;]).asEquality(&#92;&quot;City&#92;&quot;)}};q = filter q by {{column(Grouping_4.selection, [&#92;&quot;StoreSize&#92;&quot;]).asEquality(&#92;&quot;StoreSize&#92;&quot;)}};q = filter q by {{column(Grouping_5.selection, [&#92;&quot;VP_Name&#92;&quot;]).asEquality(&#92;&quot;VP_Name&#92;&quot;)}};q = filter q by {{column(Grouping_6.selection, [&#92;&quot;Owner_Name&#92;&quot;]).asEquality(&#92;&quot;Owner_Name&#92;&quot;)}};q = filter q by {{column(Grouping_7.selection, [&#92;&quot;Manager_Name&#92;&quot;]).asEquality(&#92;&quot;Manager_Name&#92;&quot;)}};q = filter q by {{column(Grouping_8.selection, [&#92;&quot;StoreLayout&#92;&quot;]).asEquality(&#92;&quot;StoreLayout&#92;&quot;)}};q = filter q by {{column(Filter_1.selection, [&#92;&quot;Region&#92;&quot;]).asEquality(&#92;&quot;Region&#92;&quot;)}};q = filter q by {{column(Filter_2.selection, [&#92;&quot;Country&#92;&quot;]).asEquality(&#92;&quot;Country&#92;&quot;)}};q = filter q by {{column(Filter_3.selection, [&#92;&quot;City&#92;&quot;]).asEquality(&#92;&quot;City&#92;&quot;)}};q = filter q by {{column(Filter_4.selection, [&#92;&quot;StoreSize&#92;&quot;]).asEquality(&#92;&quot;StoreSize&#92;&quot;)}};q = filter q by {{column(Filter_5.selection, [&#92;&quot;VP_Name&#92;&quot;]).asEquality(&#92;&quot;VP_Name&#92;&quot;)}};q = filter q by {{column(Filter_6.selection, [&#92;&quot;Owner_Name&#92;&quot;]).asEquality(&#92;&quot;Owner_Name&#92;&quot;)}};q = filter q by {{column(Filter_7.selection, [&#92;&quot;Manager_Name&#92;&quot;]).asEquality(&#92;&quot;Manager_Name&#92;&quot;)}};q = filter q by {{column(Filter_8.selection, [&#92;&quot;StoreLayout&#92;&quot;]).asEquality(&#92;&quot;StoreLayout&#92;&quot;)}}; q = filter q by date{{flatten(column(Static_YoY_Timeline.selection, [&#92;&quot;filter&#92;&quot;])).asGrouping()}} in [&#92;&quot;1 year ago&#92;&quot;..&#92;&quot;current year&#92;&quot;]; q = group q by {{flatten(column(Static_YoY_Timeline.selection, [&#92;&quot;value&#92;&quot;])).asGrouping()}}; q = foreach q generate {{row(Static_YoY_Timeline.selection, [],[&#92;&quot;expression1&#92;&quot;,&#92;&quot;alias1&#92;&quot;]).asProjection()}},{{row(Static_YoY_Timeline.selection, [],[&#92;&quot;expression2&#92;&quot;,&#92;&quot;alias2&#92;&quot;]).asProjection()}}, {{row(Static_Measures.selection, [], [&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}}; &quot;,&quot;measures&quot;:&quot;{{column(Static_Measures.selection, [&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;groups&quot;:&quot;{{flatten(column(Static_YoY_Timeline.selection, [&#92;&quot;value&#92;&quot;])).asObject()}}&quot;}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Static_Measures": {
+        "broadcastFacet": true,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": true,
+        "values": [
+          "{&quot;display&quot;:&quot;sum of Amount Spent&quot;,&quot;cf&quot;:[&quot;sum&quot;,&quot;AmountSpent&quot;],&quot;expression&quot;:&quot;sum(&#39;AmountSpent&#39;)&quot;,&quot;alias&quot;:&quot;sum_AmountSpent&quot;}",
+          "{&quot;display&quot;:&quot;sum of Coupon Value&quot;,&quot;cf&quot;:[&quot;sum&quot;,&quot;CouponValue&quot;],&quot;expression&quot;:&quot;sum(&#39;CouponValue&#39;)&quot;,&quot;alias&quot;:&quot;sum_CouponValue&quot;}",
+          "{&quot;display&quot;:&quot;sum of Amount Saved&quot;,&quot;cf&quot;:[&quot;sum&quot;,&quot;Amount_Saved&quot;],&quot;expression&quot;:&quot;sum(&#39;Amount_Saved&#39;)&quot;,&quot;alias&quot;:&quot;sum_Amount_Saved&quot;}",
+          "{&quot;display&quot;:&quot;avg of Amount Spent&quot;,&quot;cf&quot;:[&quot;avg&quot;,&quot;AmountSpent&quot;],&quot;expression&quot;:&quot;avg(&#39;AmountSpent&#39;)&quot;,&quot;alias&quot;:&quot;avg_AmountSpent&quot;}"
+        ]
+      },
+      "KPIs": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;Marketing_Campaign_GroceryStore&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = group q by all; q = foreach q generate {{row(Static_KPI.selection, [], [&#92;&quot;expression1&#92;&quot;,&#92;&quot;aliaskpi1&#92;&quot;]).asProjection()}},{{row(Static_KPI.selection, [], [&#92;&quot;expression2&#92;&quot;,&#92;&quot;aliaskpi2&#92;&quot;]).asProjection()}},{{row(Static_KPI.selection, [], [&#92;&quot;expression3&#92;&quot;,&#92;&quot;aliaskpi3&#92;&quot;]).asProjection()}},{{row(Static_KPI.selection, [], [&#92;&quot;expression4&#92;&quot;,&#92;&quot;aliaskpi4&#92;&quot;]).asProjection()}};&#92;n;&quot;,&quot;measures&quot;:[&quot;{{cell(Static_KPI.selection,0, &#92;&quot;cfkpi1&#92;&quot;).asObject()}}&quot;,&quot;{{cell(Static_KPI.selection,0, &#92;&quot;cfkpi2&#92;&quot;).asObject()}}&quot;,&quot;{{cell(Static_KPI.selection,0, &#92;&quot;cfkpi3&#92;&quot;).asObject()}}&quot;,&quot;{{cell(Static_KPI.selection,0, &#92;&quot;cfkpi4&#92;&quot;).asObject()}}&quot;],&quot;autoFilter&quot;:true}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Timeline_Grouping": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;Marketing_Campaign_GroceryStore&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = group q by {{concat(flatten(column(Static_Timeline.selection, [&#92;&quot;value&#92;&quot;])),column(Static_Group.selection, [&#92;&quot;value&#92;&quot;])).asGrouping()}}; q = foreach q generate {{row(Static_Timeline.selection,[], [&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}},{{row(Static_Group.selection,[], [&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}}, {{row(Static_Measures.selection, [0], [&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}};&quot;,&quot;measures&quot;:&quot;{{column(Static_Measures.selection, [&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;autoFilter&quot;:true,&quot;groups&quot;:[&quot;{{flatten(column(Static_Timeline.selection, [&#92;&quot;value&#92;&quot;])).asObject()}}&quot;,&quot;{{column(Static_Group.selection, [&#92;&quot;value&#92;&quot;]).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Filter_7": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0,&#92;&quot;alias7&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Filter_8": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0,&#92;&quot;alias8&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Filter_5": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0,&#92;&quot;alias5&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Static_KPI": {
+        "broadcastFacet": true,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": true,
+        "values": [
+          "{&quot;display&quot;:&quot;&quot;,&quot;labelkpi1&quot;:&quot;sum of Amount Spent&quot;,&quot;expression1&quot;:&quot;sum(&#39;AmountSpent&#39;)&quot;,&quot;cfkpi1&quot;:[&quot;sum&quot;,&quot;AmountSpent&quot;],&quot;aliaskpi1&quot;:&quot;sum_AmountSpent&quot;,&quot;labelkpi2&quot;:&quot;sum of Coupon Value&quot;,&quot;expression2&quot;:&quot;sum(&#39;CouponValue&#39;)&quot;,&quot;cfkpi2&quot;:[&quot;sum&quot;,&quot;CouponValue&quot;],&quot;aliaskpi2&quot;:&quot;sum_CouponValue&quot;,&quot;labelkpi3&quot;:&quot;sum of Amount Saved&quot;,&quot;expression3&quot;:&quot;sum(&#39;Amount_Saved&#39;)&quot;,&quot;cfkpi3&quot;:[&quot;sum&quot;,&quot;Amount_Saved&quot;],&quot;aliaskpi3&quot;:&quot;sum_Amount_Saved&quot;,&quot;labelkpi4&quot;:&quot;avg of Amount Spent&quot;,&quot;expression4&quot;:&quot;avg(&#39;AmountSpent&#39;)&quot;,&quot;cfkpi4&quot;:[&quot;avg&quot;,&quot;AmountSpent&quot;],&quot;aliaskpi4&quot;:&quot;avg_AmountSpent&quot;}"
+        ]
+      },
+      "Filter_6": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0,&#92;&quot;alias6&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Grouping_8": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;Marketing_Campaign_GroceryStore&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = group q by {{cell(Static_Dimensions.selection,0,&#92;&quot;alias8&#92;&quot;).asGrouping()}}; q = foreach q generate {{row(Static_Dimensions.selection, [0], [&#92;&quot;value8&#92;&quot;, &#92;&quot;alias8&#92;&quot;]).asProjection()}}, {{row(Static_Measures.selection, [], [&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}};&#92;n; q = order q by {{column(Static_Measures.selection, [&#92;&quot;alias&#92;&quot;]).asGrouping()}} {{column(Static_Order.selection, [&#92;&quot;value&#92;&quot;]).asObject()}};&quot;,&quot;measures&quot;:&quot;{{column(Static_Measures.selection, [&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;autoFilter&quot;:true,&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias8&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Filter_3": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0,&#92;&quot;alias3&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Filter_4": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0,&#92;&quot;alias4&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Static_YoY_Timeline": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;Date (Quarter)&quot;,&quot;alias1&quot;:&quot;Date_Year&quot;,&quot;expression1&quot;:&quot;&#39;Date_Year&#39;&quot;,&quot;alias2&quot;:&quot;Date_Quarter&quot;,&quot;expression2&quot;:&quot;&#39;Date_Quarter&#39;&quot;,&quot;value&quot;:[&quot;Date_Quarter&quot;,&quot;Date_Year&quot;],&quot;filter&quot;:[&quot;Date_Year&quot;,&quot;Date_Month&quot;,&quot;Date_Day&quot;]}",
+          "{&quot;display&quot;:&quot;Date (Month)&quot;,&quot;alias1&quot;:&quot;Date_Year&quot;,&quot;expression1&quot;:&quot;&#39;Date_Year&#39;&quot;,&quot;alias2&quot;:&quot;Date_Month&quot;,&quot;expression2&quot;:&quot;&#39;Date_Month&#39;&quot;,&quot;value&quot;:[&quot;Date_Month&quot;,&quot;Date_Year&quot;],&quot;filter&quot;:[&quot;Date_Year&quot;,&quot;Date_Month&quot;,&quot;Date_Day&quot;]}",
+          "{&quot;display&quot;:&quot;Date (Week)&quot;,&quot;alias1&quot;:&quot;Date_Year&quot;,&quot;expression1&quot;:&quot;&#39;Date_Year&#39;&quot;,&quot;alias2&quot;:&quot;Date_Week&quot;,&quot;expression2&quot;:&quot;&#39;Date_Week&#39;&quot;,&quot;value&quot;:[&quot;Date_Week&quot;,&quot;Date_Year&quot;],&quot;filter&quot;:[&quot;Date_Year&quot;,&quot;Date_Month&quot;,&quot;Date_Day&quot;]}"
+        ]
+      },
+      "Date_3": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0,&#92;&quot;datealias3&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Filter_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0,&#92;&quot;alias1&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Grouping_5": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;Marketing_Campaign_GroceryStore&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = group q by {{cell(Static_Dimensions.selection,0,&#92;&quot;alias5&#92;&quot;).asGrouping()}}; q = foreach q generate {{row(Static_Dimensions.selection, [0], [&#92;&quot;value5&#92;&quot;, &#92;&quot;alias5&#92;&quot;]).asProjection()}}, {{row(Static_Measures.selection, [], [&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}};&#92;n; q = order q by {{column(Static_Measures.selection, [&#92;&quot;alias&#92;&quot;]).asGrouping()}} {{column(Static_Order.selection, [&#92;&quot;value&#92;&quot;]).asObject()}};&quot;,&quot;measures&quot;:&quot;{{column(Static_Measures.selection, [&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;autoFilter&quot;:true,&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias5&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Filter_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0,&#92;&quot;alias2&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Grouping_4": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;Marketing_Campaign_GroceryStore&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = group q by {{cell(Static_Dimensions.selection,0,&#92;&quot;alias4&#92;&quot;).asGrouping()}}; q = foreach q generate {{row(Static_Dimensions.selection, [0], [&#92;&quot;value4&#92;&quot;, &#92;&quot;alias4&#92;&quot;]).asProjection()}}, {{row(Static_Measures.selection, [], [&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}};&#92;n; q = order q by {{column(Static_Measures.selection, [&#92;&quot;alias&#92;&quot;]).asGrouping()}} {{column(Static_Order.selection, [&#92;&quot;value&#92;&quot;]).asObject()}};&quot;,&quot;measures&quot;:&quot;{{column(Static_Measures.selection, [&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;autoFilter&quot;:true,&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias4&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Date_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;datealias1&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Grouping_7": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;Marketing_Campaign_GroceryStore&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = group q by {{cell(Static_Dimensions.selection,0,&#92;&quot;alias7&#92;&quot;).asGrouping()}}; q = foreach q generate {{row(Static_Dimensions.selection, [0], [&#92;&quot;value7&#92;&quot;, &#92;&quot;alias7&#92;&quot;]).asProjection()}}, {{row(Static_Measures.selection, [], [&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}};&#92;n; q = order q by {{column(Static_Measures.selection, [&#92;&quot;alias&#92;&quot;]).asGrouping()}} {{column(Static_Order.selection, [&#92;&quot;value&#92;&quot;]).asObject()}};&quot;,&quot;measures&quot;:&quot;{{column(Static_Measures.selection, [&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;autoFilter&quot;:true,&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias7&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Date_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0,&#92;&quot;datealias2&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Grouping_6": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;Marketing_Campaign_GroceryStore&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = group q by {{cell(Static_Dimensions.selection,0,&#92;&quot;alias6&#92;&quot;).asGrouping()}}; q = foreach q generate {{row(Static_Dimensions.selection, [0], [&#92;&quot;value6&#92;&quot;, &#92;&quot;alias6&#92;&quot;]).asProjection()}}, {{row(Static_Measures.selection, [], [&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}};&#92;n; q = order q by {{column(Static_Measures.selection, [&#92;&quot;alias&#92;&quot;]).asGrouping()}} {{column(Static_Order.selection, [&#92;&quot;value&#92;&quot;]).asObject()}};&quot;,&quot;measures&quot;:&quot;{{column(Static_Measures.selection, [&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;autoFilter&quot;:true,&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias6&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Grouping_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;Marketing_Campaign_GroceryStore&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = group q by {{cell(Static_Dimensions.selection,0,&#92;&quot;alias1&#92;&quot;).asGrouping()}}; q = foreach q generate {{row(Static_Dimensions.selection, [0], [&#92;&quot;value1&#92;&quot;, &#92;&quot;alias1&#92;&quot;]).asProjection()}}, {{row(Static_Measures.selection, [], [&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}};&#92;n; q = order q by {{column(Static_Measures.selection, [&#92;&quot;alias&#92;&quot;]).asGrouping()}} {{column(Static_Order.selection, [&#92;&quot;value&#92;&quot;]).asObject()}};&quot;,&quot;measures&quot;:&quot;{{column(Static_Measures.selection, [&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;autoFilter&quot;:true,&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias1&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Grouping_3": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;Marketing_Campaign_GroceryStore&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = group q by {{cell(Static_Dimensions.selection,0,&#92;&quot;alias3&#92;&quot;).asGrouping()}}; q = foreach q generate {{row(Static_Dimensions.selection, [0], [&#92;&quot;value3&#92;&quot;, &#92;&quot;alias3&#92;&quot;]).asProjection()}}, {{row(Static_Measures.selection, [], [&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}};&#92;n; q = order q by {{column(Static_Measures.selection, [&#92;&quot;alias&#92;&quot;]).asGrouping()}} {{column(Static_Order.selection, [&#92;&quot;value&#92;&quot;]).asObject()}};&quot;,&quot;measures&quot;:&quot;{{column(Static_Measures.selection, [&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;autoFilter&quot;:true,&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias3&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Grouping_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;Marketing_Campaign_GroceryStore&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = group q by {{cell(Static_Dimensions.selection,0,&#92;&quot;alias2&#92;&quot;).asGrouping()}}; q = foreach q generate {{row(Static_Dimensions.selection, [0], [&#92;&quot;value2&#92;&quot;, &#92;&quot;alias2&#92;&quot;]).asProjection()}}, {{row(Static_Measures.selection, [], [&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}};&#92;n; q = order q by {{column(Static_Measures.selection, [&#92;&quot;alias&#92;&quot;]).asGrouping()}} {{column(Static_Order.selection, [&#92;&quot;value&#92;&quot;]).asObject()}};&quot;,&quot;measures&quot;:&quot;{{column(Static_Measures.selection, [&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;autoFilter&quot;:true,&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias2&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Static_Dimensions": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;&quot;,&quot;value1&quot;:&quot;&#39;Region&#39;&quot;,&quot;alias1&quot;:&quot;Region&quot;,&quot;label1&quot;:&quot;Region&quot;,&quot;value2&quot;:&quot;&#39;Country&#39;&quot;,&quot;alias2&quot;:&quot;Country&quot;,&quot;label2&quot;:&quot;Country&quot;,&quot;value3&quot;:&quot;&#39;City&#39;&quot;,&quot;alias3&quot;:&quot;City&quot;,&quot;label3&quot;:&quot;City&quot;,&quot;value4&quot;:&quot;&#39;StoreSize&#39;&quot;,&quot;alias4&quot;:&quot;StoreSize&quot;,&quot;label4&quot;:&quot;StoreSize&quot;,&quot;value5&quot;:&quot;&#39;VP_Name&#39;&quot;,&quot;alias5&quot;:&quot;VP_Name&quot;,&quot;label5&quot;:&quot;VP Name&quot;,&quot;value6&quot;:&quot;&#39;Owner_Name&#39;&quot;,&quot;alias6&quot;:&quot;Owner_Name&quot;,&quot;label6&quot;:&quot;Owner Name&quot;,&quot;value7&quot;:&quot;&#39;Manager_Name&#39;&quot;,&quot;alias7&quot;:&quot;Manager_Name&quot;,&quot;label7&quot;:&quot;Manager Name&quot;,&quot;value8&quot;:&quot;&#39;StoreLayout&#39;&quot;,&quot;alias8&quot;:&quot;StoreLayout&quot;,&quot;label8&quot;:&quot;StoreLayout&quot;,&quot;datevalue1&quot;:&quot;&#39;Date&#39;&quot;,&quot;datealias1&quot;:&quot;Date&quot;,&quot;datelabel1&quot;:&quot;Date&quot;}"
+        ]
+      },
+      "Static_Order": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;Asc&quot;,&quot;value&quot;:&quot;asc&quot;}",
+          "{&quot;display&quot;:&quot;Desc&quot;,&quot;value&quot;:&quot;desc&quot;}"
+        ]
+      },
+      "Static_Filter_1": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;All&quot;,&quot;value&quot;:&quot;&#39;StoreSize&#39; in all&quot;}"
+        ]
+      },
+      "Raw_Data": {
+        "datasets": [
+          {
+            "id": "0Fb6A0000004XYcSAM",
+            "label": "DEMO_7_Marketing-Campaign-GroceryStore",
+            "name": "Marketing_Campaign_GroceryStore",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A0000004XYcSAM"
+          }
+        ],
+        "isFacet": true,
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;values&quot;:[&quot;Region&quot;,&quot;Country&quot;,&quot;City&quot;,&quot;StoreSize&quot;,&quot;VP_Name&quot;,&quot;Owner_Name&quot;,&quot;Manager_Name&quot;,&quot;StoreLayout&quot;]}",
+          "version": -1
+        },
+        "type": "grain",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "valuestable"
+        }
+      }
+    },
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "Additional_Feature_List_2": {
+        "parameters": {
+          "compact": false,
+          "expanded": true,
+          "exploreLink": false,
+          "instant": true,
+          "showActionMenu": false,
+          "step": "Static_Group",
+          "title": "Choose Grouping"
+        },
+        "type": "listselector"
+      },
+      "Sort_Toggle": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "showActionMenu": true,
+          "step": "Static_Order"
+        },
+        "type": "pillbox"
+      },
+      "Additional_Feature_Title_2": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "Timeline by Dynamic Groupings",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "Additional_Feature_Title_1": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "Year Over Year Analysis",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "Filter_7": {
+        "parameters": {
+          "compact": false,
+          "expanded": true,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_7",
+          "title": "Manager Name"
+        },
+        "type": "listselector"
+      },
+      "Filter_8": {
+        "parameters": {
+          "compact": false,
+          "expanded": true,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_8",
+          "title": "StoreLayout"
+        },
+        "type": "listselector"
+      },
+      "Filter_5": {
+        "parameters": {
+          "compact": false,
+          "expanded": true,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_5",
+          "title": "VP Name"
+        },
+        "type": "listselector"
+      },
+      "Filter_6": {
+        "parameters": {
+          "compact": false,
+          "expanded": true,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_6",
+          "title": "Owner Name"
+        },
+        "type": "listselector"
+      },
+      "Filter_3": {
+        "parameters": {
+          "compact": false,
+          "expanded": true,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_3",
+          "title": "City"
+        },
+        "type": "listselector"
+      },
+      "Filter_4": {
+        "parameters": {
+          "compact": false,
+          "expanded": true,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_4",
+          "title": "StoreSize"
+        },
+        "type": "listselector"
+      },
+      "Filter_1": {
+        "parameters": {
+          "compact": false,
+          "expanded": true,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_1",
+          "title": "Region"
+        },
+        "type": "listselector"
+      },
+      "Filter_2": {
+        "parameters": {
+          "compact": false,
+          "expanded": true,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_2",
+          "title": "Country"
+        },
+        "type": "listselector"
+      },
+      "Description_Container": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "TA_Logo_transparentTA_HomeScreenpng",
+            "namespace": ""
+          }
+        },
+        "type": "container"
+      },
+      "Groupings_Container": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "documentId": "",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "dateselector_1": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "",
+          "textAlignment": "center",
+          "textColor": "#fff"
+        },
+        "type": "text"
+      },
+      "Raw_Details_Chart": {
+        "parameters": {
+          "borderColor": "#54698d",
+          "borderWidth": 1,
+          "cell": {
+            "backgroundColor": "#16325c",
+            "fontColor": "#ffffff",
+            "fontSize": 12
+          },
+          "columnProperties": {},
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": true,
+          "header": {
+            "backgroundColor": "#000000",
+            "fontColor": "#ffffff",
+            "fontSize": 12
+          },
+          "innerMajorBorderColor": "#54698d",
+          "innerMinorBorderColor": "#54698d",
+          "mode": "fittocontainer",
+          "numberOfLines": 1,
+          "showActionMenu": true,
+          "showRowIndexColumn": true,
+          "step": "Raw_Data",
+          "totals": true,
+          "verticalPadding": 8
+        },
+        "type": "table"
+      },
+      "Chart_6": {
+        "parameters": {
+          "autoFitMode": "none",
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "hbar",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "binValues": false,
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "step": "Grouping_6",
+          "theme": "dark",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "Chart_5": {
+        "parameters": {
+          "autoFitMode": "none",
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "hbar",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "binValues": false,
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "step": "Grouping_5",
+          "theme": "dark",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "Chart_8": {
+        "parameters": {
+          "autoFitMode": "none",
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "hbar",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "binValues": false,
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "step": "Grouping_8",
+          "theme": "dark",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "Chart_7": {
+        "parameters": {
+          "autoFitMode": "none",
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "hbar",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "binValues": false,
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "step": "Grouping_7",
+          "theme": "dark",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "Chart_2": {
+        "parameters": {
+          "totalValue": "computeTotal",
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "autoZoom": false,
+          "highColor": "#1674D9",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "projectionType": "Equirectangular",
+          "lowColor": "#C5DBF7",
+          "visualizationType": "choropleth",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "binValues": false,
+          "totalLabel": "",
+          "showActionMenu": true,
+          "step": "Grouping_2",
+          "theme": "dark",
+          "map": "World Countries"
+        },
+        "type": "chart"
+      },
+      "Chart_1": {
+        "parameters": {
+          "autoFitMode": "none",
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "hbar",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "binValues": false,
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "step": "Grouping_1",
+          "theme": "dark",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "Chart_4": {
+        "parameters": {
+          "autoFitMode": "none",
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "hbar",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "binValues": false,
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "step": "Grouping_4",
+          "theme": "dark",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "Chart_3": {
+        "parameters": {
+          "autoFitMode": "none",
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "hbar",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "binValues": false,
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "step": "Grouping_3",
+          "theme": "dark",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "Dashboard_Description": {
+        "parameters": {
+          "fontSize": 12,
+          "showActionMenu": true,
+          "text": "Grocery",
+          "textAlignment": "center",
+          "textColor": "#C5D3E0"
+        },
+        "type": "text"
+      },
+      "Chart_Container": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "documentId": "",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "Header_Container": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "documentId": "",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "Chart_Title_8": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "{{ cell(Static_Dimensions.selection, 0, &quot;label8&quot;).asString()}}",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "Filters_Title": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "Filters:",
+          "textAlignment": "left",
+          "textColor": "rgb(2, 8, 14)"
+        },
+        "type": "text"
+      },
+      "Measure_Text": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "Select Measure",
+          "textAlignment": "right",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "Chart_Title_1": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "{{ cell(Static_Dimensions.selection, 0, &quot;label1&quot;).asString()}}",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "Raw_Details_Title": {
+        "parameters": {
+          "fontSize": 24,
+          "showActionMenu": true,
+          "text": "Dataset Details",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "Chart_Title_3": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "{{ cell(Static_Dimensions.selection, 0, &quot;label3&quot;).asString()}}",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "dateselector_2": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "",
+          "textAlignment": "center",
+          "textColor": "#fff"
+        },
+        "type": "text"
+      },
+      "Chart_Title_2": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "{{ cell(Static_Dimensions.selection, 0, &quot;label2&quot;).asString()}}",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "Chart_Title_5": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "{{ cell(Static_Dimensions.selection, 0, &quot;label5&quot;).asString()}}",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "Chart_Title_4": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "{{ cell(Static_Dimensions.selection, 0, &quot;label4&quot;).asString()}}",
+          "textAlignment": "center",
+          "textColor": "rgb(255, 255, 255)"
+        },
+        "type": "text"
+      },
+      "Chart_Title_7": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "{{ cell(Static_Dimensions.selection, 0, &quot;label7&quot;).asString()}}",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "Chart_Title_6": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "{{ cell(Static_Dimensions.selection, 0, &quot;label6&quot;).asString()}}",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "Dashboard_Title": {
+        "parameters": {
+          "fontSize": 18,
+          "showActionMenu": true,
+          "text": "Marketing Campaign",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "Date_Filter_1": {
+        "parameters": {
+          "absoluteModeEnabled": true,
+          "calendarTypeSwitchingAllowed": false,
+          "defaultFiscalMode": false,
+          "instant": false,
+          "presetsEnabled": false,
+          "relativeModeEnabled": true,
+          "showActionMenu": true,
+          "step": "Date_1",
+          "title": "Date"
+        },
+        "type": "dateselector"
+      },
+      "KPI_Title_2": {
+        "parameters": {
+          "fontSize": 24,
+          "showActionMenu": true,
+          "text": "{{cell(Static_KPI.selection,0, &quot;labelkpi2&quot;).asObject()}}",
+          "textAlignment": "center",
+          "textColor": "#E6ECF2"
+        },
+        "type": "text"
+      },
+      "KPI_Title_3": {
+        "parameters": {
+          "fontSize": 24,
+          "showActionMenu": true,
+          "text": "{{cell(Static_KPI.selection,0, &quot;labelkpi3&quot;).asObject()}}",
+          "textAlignment": "center",
+          "textColor": "#E6ECF2"
+        },
+        "type": "text"
+      },
+      "listselector_2": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "showActionMenu": false,
+          "step": "Static_YoY_Timeline",
+          "title": "Choose Date Format"
+        },
+        "type": "listselector"
+      },
+      "KPI_Title_4": {
+        "parameters": {
+          "fontSize": 24,
+          "showActionMenu": true,
+          "text": "{{cell(Static_KPI.selection,0, &quot;labelkpi4&quot;).asObject()}}",
+          "textAlignment": "center",
+          "textColor": "#E6ECF2"
+        },
+        "type": "text"
+      },
+      "Filters_Container": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "documentId": "",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "Overview_Title": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "Command",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "Additional_Feature_Chart_2": {
+        "parameters": {
+          "totalValue": "computeTotal",
+          "showPoints": true,
+          "legend": {
+            "showHeader": true,
+            "show": true,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "time",
+          "missingValue": "connect",
+          "dashLine": {
+            "measures": "",
+            "showDashLine": false
+          },
+          "exploreLink": false,
+          "timeAxis": {
+            "showTitle": true,
+            "showAxis": true,
+            "title": ""
+          },
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "fillArea": true,
+          "showActionMenu": true,
+          "showZero": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "valueType": "none",
+          "step": "Timeline_Grouping",
+          "theme": "dark",
+          "drawArea": {
+            "measure": "",
+            "showDrawArea": false,
+            "bounding1": "",
+            "bounding2": ""
+          }
+        },
+        "type": "chart"
+      },
+      "Custom_Filter_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "showActionMenu": false,
+          "step": "Static_Filter_1",
+          "title": "Custom Filter"
+        },
+        "type": "listselector"
+      },
+      "KPI_1": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": true,
+          "measureField": "sum_AmountSpent",
+          "numberColor": "#FFFFFF",
+          "numberSize": 32,
+          "showActionMenu": true,
+          "step": "KPIs",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "KPI_2": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": true,
+          "measureField": "sum_CouponValue",
+          "numberColor": "#FFFFFF",
+          "numberSize": 32,
+          "showActionMenu": true,
+          "step": "KPIs",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "Additional_Feature_Chart_1": {
+        "parameters": {
+          "totalValue": "computeTotal",
+          "showPoints": true,
+          "legend": {
+            "showHeader": true,
+            "show": true,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "time",
+          "missingValue": "connect",
+          "dashLine": {
+            "measures": "",
+            "showDashLine": false
+          },
+          "exploreLink": false,
+          "timeAxis": {
+            "showTitle": true,
+            "showAxis": true,
+            "title": ""
+          },
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "fillArea": true,
+          "showActionMenu": true,
+          "showZero": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "valueType": "none",
+          "step": "Yoy",
+          "theme": "dark",
+          "drawArea": {
+            "measure": "",
+            "showDrawArea": false,
+            "bounding1": "",
+            "bounding2": ""
+          }
+        },
+        "type": "chart"
+      },
+      "Sort_Results": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "Sort Results",
+          "textAlignment": "right",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "listselector_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "showActionMenu": false,
+          "step": "Static_Timeline",
+          "title": "Choose Date Format"
+        },
+        "type": "listselector"
+      },
+      "KPI_Title_1": {
+        "parameters": {
+          "fontSize": 24,
+          "showActionMenu": true,
+          "text": "{{cell(Static_KPI.selection,0, &quot;labelkpi1&quot;).asObject()}}",
+          "textAlignment": "center",
+          "textColor": "#E6ECF2"
+        },
+        "type": "text"
+      },
+      "Measure_List": {
+        "parameters": {
+          "compact": false,
+          "expanded": true,
+          "exploreLink": false,
+          "instant": true,
+          "showActionMenu": false,
+          "step": "Static_Measures",
+          "title": ""
+        },
+        "type": "listselector"
+      },
+      "KPI_3": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": true,
+          "measureField": "sum_Amount_Saved",
+          "numberColor": "#FFFFFF",
+          "numberSize": 32,
+          "showActionMenu": true,
+          "step": "KPIs",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "KPI_4": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": true,
+          "measureField": "avg_AmountSpent",
+          "numberColor": "#FFFFFF",
+          "numberSize": 32,
+          "showActionMenu": true,
+          "step": "KPIs",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      }
+    }
+  },
+  "type": "dashboard",
+  "url": "/services/data/v44.0/wave/dashboards/0FK6A000000Uq64WAC"
+}
