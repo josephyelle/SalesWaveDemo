@@ -1,0 +1,3142 @@
+{
+  "allowPreview": true,
+  "assetSharingUrl": "https://analyticsccdemo.my.salesforce.com/analytics/wave/dashboard?assetId=0FK6A000000UpyyWAC&orgId=00D6A000000v6bX&loginHost=na50.salesforce.com&urlType=sharing",
+  "createdBy": {
+    "id": "0056A000000yYKGQA2",
+    "name": "Joseph Yelle",
+    "profilePhotoUrl": "https://analyticsccdemo--c.na50.content.force.com/profilephoto/005/T"
+  },
+  "createdDate": "2018-04-19T21:03:54.000Z",
+  "datasets": [
+    {
+      "id": "0Fb6A000000Xl5kSAC",
+      "label": "Products Snapshot",
+      "name": "Products_Snapshot",
+      "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+    }
+  ],
+  "dateVersion": 1,
+  "description": "Compare metrics side-by-side, across a single dimension_ Filter both columns of information using the filter sidebar_",
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 11292,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJ6A0000008VOsWAM",
+      "lastModifiedDate": "2018-04-23T16:45:20.000Z",
+      "url": "/services/data/v44.0/wave/lenses/0FK6A000000UpyyWAC/files/0FJ6A0000008VOsWAM"
+    }
+  ],
+  "folder": {
+    "id": "00l6A000000p7rUQAQ",
+    "label": "DEMO TouchAnalytics - Presentation",
+    "name": "DEMO_TouchAnalytics_Presentation",
+    "url": "/services/data/v44.0/wave/folders/00l6A000000p7rUQAQ"
+  },
+  "id": "0FK6A000000UpyyWAC",
+  "label": "COMPARE DEMO",
+  "lastAccessedDate": "2019-02-01T04:39:17.000Z",
+  "lastModifiedBy": {
+    "id": "0056A000000yYKGQA2",
+    "name": "Joseph Yelle",
+    "profilePhotoUrl": "https://analyticsccdemo--c.na50.content.force.com/profilephoto/005/T"
+  },
+  "lastModifiedDate": "2018-04-23T16:45:14.000Z",
+  "mobileDisabled": false,
+  "name": "COMPARE_DEMO",
+  "permissions": {
+    "manage": true,
+    "modify": true,
+    "view": true
+  },
+  "refreshDate": "2017-10-16T04:36:11.000Z",
+  "state": {
+    "dataSourceLinks": [],
+    "filters": [],
+    "gridLayouts": [
+      {
+        "name": "Default",
+        "numColumns": 32,
+        "pages": [
+          {
+            "label": "Untitled",
+            "name": "c6cad556-9227-4942-8290-17b10b04bf61",
+            "navigationHidden": false,
+            "widgets": [
+              {
+                "colspan": 32,
+                "column": 0,
+                "name": "text_1",
+                "row": 0,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 32,
+                "column": 0,
+                "name": "container_4",
+                "row": 2,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0.41)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 13,
+                "name": "listselector_1",
+                "row": 5,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0.41)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 32,
+                "column": 0,
+                "name": "Chart_1_1",
+                "row": 6,
+                "rowspan": 7,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 32,
+                "column": 0,
+                "name": "container_5",
+                "row": 5,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 0,
+                "name": "text_2",
+                "row": 14,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 0,
+                "name": "text_5",
+                "row": 15,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 0,
+                "name": "text_6",
+                "row": 16,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 0,
+                "name": "text_7",
+                "row": 17,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 0,
+                "name": "text_8",
+                "row": 18,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 0,
+                "name": "listselector_17",
+                "row": 20,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0.41)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 0,
+                "name": "listselector_14",
+                "row": 21,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0.41)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 0,
+                "name": "container_2",
+                "row": 13,
+                "rowspan": 20,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 5,
+                "name": "text_3",
+                "row": 13,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 10,
+                "name": "listselector_4",
+                "row": 13,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 5,
+                "name": "number_1",
+                "row": 14,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 5,
+                "name": "number_5",
+                "row": 15,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": [
+                    "top"
+                  ]
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 5,
+                "name": "number_2",
+                "row": 16,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": [
+                    "top"
+                  ]
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 5,
+                "name": "number_6",
+                "row": 17,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": [
+                    "top"
+                  ]
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 5,
+                "name": "number_13",
+                "row": 18,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 5,
+                "name": "chart_3",
+                "row": 20,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "borderColor": "#2EC2BA",
+                  "borderEdges": [],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 5,
+                "name": "container_1",
+                "row": 13,
+                "rowspan": 20,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 14,
+                "name": "text_4",
+                "row": 13,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 19,
+                "name": "listselector_5",
+                "row": 13,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 14,
+                "name": "number_3",
+                "row": 14,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 14,
+                "name": "number_7",
+                "row": 15,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": [
+                    "top"
+                  ]
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 14,
+                "name": "number_4",
+                "row": 16,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": [
+                    "top"
+                  ]
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 14,
+                "name": "number_8",
+                "row": 17,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": [
+                    "top"
+                  ]
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 14,
+                "name": "number_14",
+                "row": 18,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 14,
+                "name": "chart_5",
+                "row": 20,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "borderColor": "#44A2F5",
+                  "borderEdges": [],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 14,
+                "name": "container_3",
+                "row": 13,
+                "rowspan": 20,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                  "borderColor": "#44A2F5",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 23,
+                "name": "text_10",
+                "row": 13,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 28,
+                "name": "pillbox_2",
+                "row": 13,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": [],
+                  "borderRadius": 16
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 23,
+                "name": "number_9",
+                "row": 14,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 23,
+                "name": "number_10",
+                "row": 15,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": [
+                    "top"
+                  ]
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 23,
+                "name": "number_11",
+                "row": 16,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": [
+                    "top"
+                  ]
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 23,
+                "name": "number_12",
+                "row": 17,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": [
+                    "top"
+                  ]
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 23,
+                "name": "number_15",
+                "row": 18,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 23,
+                "name": "chart_6",
+                "row": 20,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "borderColor": "#9271E8",
+                  "borderEdges": [],
+                  "borderRadius": 4,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 23,
+                "name": "container_6",
+                "row": 13,
+                "rowspan": 20,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(149, 154, 159, 0.77)",
+                  "borderColor": "#9271E8",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 25,
+                "name": "pillbox_1",
+                "row": 19,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": [],
+                  "borderRadius": 16
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 16,
+                "name": "pillbox_4",
+                "row": 19,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": [],
+                  "borderRadius": 16
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 7,
+                "name": "pillbox_6",
+                "row": 19,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": [],
+                  "borderRadius": 16
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 20,
+                "name": "dateselector_1",
+                "row": 4,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 24,
+                "name": "dateselector_2",
+                "row": 4,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 28,
+                "name": "dateselector_3",
+                "row": 4,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 16,
+                "name": "listselector_2",
+                "row": 4,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "listselector_3",
+                "row": 3,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 4,
+                "name": "listselector_6",
+                "row": 3,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 4,
+                "name": "listselector_7",
+                "row": 4,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 12,
+                "name": "listselector_8",
+                "row": 3,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 16,
+                "name": "listselector_9",
+                "row": 3,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 8,
+                "name": "listselector_10",
+                "row": 4,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "listselector_11",
+                "row": 4,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 12,
+                "name": "listselector_12",
+                "row": 4,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 20,
+                "name": "listselector_13",
+                "row": 3,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 8,
+                "name": "listselector_15",
+                "row": 3,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 28,
+                "name": "listselector_16",
+                "row": 3,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 24,
+                "name": "listselector_18",
+                "row": 3,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 13,
+                "column": 0,
+                "name": "text_9",
+                "row": 5,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 5,
+                "name": "chart_1",
+                "row": 27,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 14,
+                "name": "chart_2",
+                "row": 27,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 23,
+                "name": "chart_4",
+                "row": 27,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 13,
+                "name": "text_11",
+                "row": 2,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 0,
+                "name": "listselector_20",
+                "row": 27,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0.41)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 0,
+                "name": "listselector_21",
+                "row": 28,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0.41)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 32,
+                "column": 0,
+                "name": "table_1",
+                "row": 33,
+                "rowspan": 7,
+                "widgetStyle": {
+                  "borderColor": "#44A2F5",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 32,
+                "column": 0,
+                "name": "container_7",
+                "row": 0,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(9, 26, 62, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "normal",
+        "selectors": [],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "rgb(9, 26, 62)",
+          "cellSpacingX": 8,
+          "cellSpacingY": 16,
+          "fit": "fitheight",
+          "gutterColor": "#F2F6FA",
+          "image": {
+            "name": "TA_Logo_transparentArtboard_1ASPECT",
+            "namespace": ""
+          }
+        },
+        "version": 1
+      }
+    ],
+    "layouts": [],
+    "steps": {
+      "Filter_12": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias12&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Filter_9": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias9&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Filter_11": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias11&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Filter_7": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias7&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Filter_10": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias10&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Filter_8": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias8&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Filter_5": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias5&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Chart_3_3": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q= load &#92;&quot;Products_Snapshot&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q1 = filter q by {{column(As_of_Date_1.selection,[&#92;&quot;Snap_Date_Year&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Year&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_1.selection,[&#92;&quot;Snap_Date_Month&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Month&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_1.selection,[&#92;&quot;Snap_Date_Day&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Day&#92;&quot;)}}; q2 = filter q by {{column(As_of_Date_2.selection,[&#92;&quot;Snap_Date_Year&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Year&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_2.selection,[&#92;&quot;Snap_Date_Month&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Month&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_2.selection,[&#92;&quot;Snap_Date_Day&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Day&#92;&quot;)}}; f = group q1 by {{column(step_dimension_2.selection, [&#92;&quot;value&#92;&quot;]).asGrouping()}}, q2 by {{column(step_dimension_2.selection, [&#92;&quot;value&#92;&quot;]).asGrouping()}}; f1 = foreach f generate &#92;&quot;Value&#92;&quot; as &#39;Type&#39;, {{row(step_dimension_2.selection,[], [&#92;&quot;expression2&#92;&quot;,&#92;&quot;value&#92;&quot;]).asProjection()}}, {{row(Step_Measure_3.selection,[],[&#92;&quot;expression2&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}}; f2 = foreach f generate &#92;&quot;Percent&#92;&quot; as &#39;Type&#39;, {{row(step_dimension_2.selection,[], [&#92;&quot;expression2&#92;&quot;,&#92;&quot;value&#92;&quot;]).asProjection()}}, {{row(Step_Measure_3.selection,[],[&#92;&quot;expression3&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}}; final = union f1,f2; final = filter final by &#39;Type&#39; in {{column(Select_type_1.selection,[&#92;&quot;value&#92;&quot;]).asString()}}; final = order final by {{cell(Step_Measure_3.selection,0,&#92;&quot;alias&#92;&quot;).asString()}} {{cell(Static_Sort_2_3.selection, 0 ,&#92;&quot;value&#92;&quot;).asString()}} ;final = limit final 200;&quot;,&quot;measures&quot;:&quot;{{column(Step_Measure_3.selection,[&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;autoFilter&quot;:true,&quot;groups&quot;:&quot;{{column(step_dimension_2.selection, [&#92;&quot;value&#92;&quot;]).asObject()}}&quot;}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Filter_6": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias6&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Filter_3": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias3&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Chart_2_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q= load &#92;&quot;Products_Snapshot&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = filter q by {{column(As_of_Date_2.selection,[&#92;&quot;Snap_Date_Year&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Year&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_2.selection,[&#92;&quot;Snap_Date_Month&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Month&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_2.selection,[&#92;&quot;Snap_Date_Day&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Day&#92;&quot;)}}; q = group q by {{column(step_dimension_1.selection, [&#92;&quot;value&#92;&quot;]).asGrouping()}}; q = foreach q generate {{row(step_dimension_1.selection,[], [&#92;&quot;expression&#92;&quot;,&#92;&quot;value&#92;&quot;]).asProjection()}}, {{row(Step_Measure_2.selection,[],[&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}}; q = order q by {{cell(Step_Measure_2.selection,0,&#92;&quot;alias&#92;&quot;).asString()}} {{cell(Static_Sort_2_2.selection, 0 ,&#92;&quot;value&#92;&quot;).asString()}};q = limit q 2000;&quot;,&quot;measures&quot;:&quot;{{column(Step_Measure_2.selection,[&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;autoFilter&quot;:true,&quot;groups&quot;:&quot;{{column(step_dimension_1.selection, [&#92;&quot;value&#92;&quot;]).asObject()}}&quot;}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Chart_3_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q= load &#92;&quot;Products_Snapshot&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = filter q by {{column(As_of_Date_1.selection,[&#92;&quot;Snap_Date_Year&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Year&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_1.selection,[&#92;&quot;Snap_Date_Month&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Month&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_1.selection,[&#92;&quot;Snap_Date_Day&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Day&#92;&quot;)}}; q = group q by {{column(step_dimension_2.selection, [&#92;&quot;value&#92;&quot;]).asGrouping()}}; q = foreach q generate {{row(step_dimension_2.selection,[], [&#92;&quot;expression&#92;&quot;,&#92;&quot;value&#92;&quot;]).asProjection()}}, {{row(Step_Measure_3.selection,[],[&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}}; q = order q by {{cell(Step_Measure_3.selection,0,&#92;&quot;alias&#92;&quot;).asString()}} {{cell(Static_Sort_2_1.selection, 0 ,&#92;&quot;value&#92;&quot;).asString()}};q = limit q 2000;&quot;,&quot;measures&quot;:&quot;{{column(Step_Measure_3.selection,[&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;autoFilter&quot;:true,&quot;groups&quot;:&quot;{{column(step_dimension_2.selection, [&#92;&quot;value&#92;&quot;]).asObject()}}&quot;}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Filter_4": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias4&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Chart_3_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q= load &#92;&quot;Products_Snapshot&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = filter q by {{column(As_of_Date_2.selection,[&#92;&quot;Snap_Date_Year&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Year&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_2.selection,[&#92;&quot;Snap_Date_Month&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Month&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_2.selection,[&#92;&quot;Snap_Date_Day&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Day&#92;&quot;)}}; q = group q by {{column(step_dimension_2.selection, [&#92;&quot;value&#92;&quot;]).asGrouping()}}; q = foreach q generate {{row(step_dimension_2.selection,[], [&#92;&quot;expression&#92;&quot;,&#92;&quot;value&#92;&quot;]).asProjection()}}, {{row(Step_Measure_3.selection,[],[&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}}; q = order q by {{cell(Step_Measure_3.selection,0,&#92;&quot;alias&#92;&quot;).asString()}} {{cell(Static_Sort_2_2.selection, 0 ,&#92;&quot;value&#92;&quot;).asString()}};q = limit q 2000;&quot;,&quot;measures&quot;:&quot;{{column(Step_Measure_3.selection,[&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;autoFilter&quot;:true,&quot;groups&quot;:&quot;{{column(step_dimension_2.selection, [&#92;&quot;value&#92;&quot;]).asObject()}}&quot;}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Chart_2_3": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q= load &#92;&quot;Products_Snapshot&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q1 = filter q by {{column(As_of_Date_1.selection,[&#92;&quot;Snap_Date_Year&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Year&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_1.selection,[&#92;&quot;Snap_Date_Month&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Month&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_1.selection,[&#92;&quot;Snap_Date_Day&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Day&#92;&quot;)}}; q2 = filter q by {{column(As_of_Date_2.selection,[&#92;&quot;Snap_Date_Year&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Year&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_2.selection,[&#92;&quot;Snap_Date_Month&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Month&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_2.selection,[&#92;&quot;Snap_Date_Day&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Day&#92;&quot;)}}; f = group q1 by {{column(step_dimension_1.selection, [&#92;&quot;value&#92;&quot;]).asGrouping()}}, q2 by {{column(step_dimension_1.selection, [&#92;&quot;value&#92;&quot;]).asGrouping()}}; f1 = foreach f generate &#92;&quot;Value&#92;&quot; as &#39;Type&#39;, {{row(step_dimension_1.selection,[], [&#92;&quot;expression2&#92;&quot;,&#92;&quot;value&#92;&quot;]).asProjection()}}, {{row(Step_Measure_2.selection,[],[&#92;&quot;expression2&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}}; f2 = foreach f generate &#92;&quot;Percent&#92;&quot; as &#39;Type&#39;, {{row(step_dimension_1.selection,[], [&#92;&quot;expression2&#92;&quot;,&#92;&quot;value&#92;&quot;]).asProjection()}}, {{row(Step_Measure_2.selection,[],[&#92;&quot;expression3&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}}; final = union f1,f2; final = filter final by &#39;Type&#39; in {{column(Select_type_1.selection,[&#92;&quot;value&#92;&quot;]).asString()}}; final = order final by {{cell(Step_Measure_2.selection,0,&#92;&quot;alias&#92;&quot;).asString()}} {{cell(Static_Sort_2_3.selection, 0 ,&#92;&quot;value&#92;&quot;).asString()}} ;final = limit final 200;&quot;,&quot;measures&quot;:&quot;{{column(Step_Measure_2.selection,[&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;autoFilter&quot;:true,&quot;groups&quot;:&quot;{{column(step_dimension_1.selection, [&#92;&quot;value&#92;&quot;]).asObject()}}&quot;}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Filter_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias1&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Chart_1_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q= load &#92;&quot;Products_Snapshot&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = group q by (&#39;Snap_Date_Year&#39;,&#39;Snap_Date_Month&#39;,&#39;Snap_Date_Day&#39;); q = foreach q generate &#39;Snap_Date_Year&#39; + &#92;&quot;~~~&#92;&quot; + &#39;Snap_Date_Month&#39; + &#92;&quot;~~~&#92;&quot; + &#39;Snap_Date_Day&#39; as &#39;Snap_Date_Year~~~Snap_Date_Month~~~Snap_Date_Day&#39;, {{row(Step_Measure_1.selection,[],[&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}}; q = order q by {{cell(Step_Measure_1.selection,0,&#92;&quot;alias&#92;&quot;).asString()}} desc;q = limit q 2000;&quot;,&quot;measures&quot;:&quot;{{column(Step_Measure_1.selection,[&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;autoFilter&quot;:true,&quot;groups&quot;:[[&quot;Snap_Date_Year&quot;,&quot;Snap_Date_Month&quot;,&quot;Snap_Date_Day&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Filter_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;alias2&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Chart_2_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q= load &#92;&quot;Products_Snapshot&#92;&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = filter q by {{column(As_of_Date_1.selection,[&#92;&quot;Snap_Date_Year&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Year&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_1.selection,[&#92;&quot;Snap_Date_Month&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Month&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_1.selection,[&#92;&quot;Snap_Date_Day&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Day&#92;&quot;)}}; q = group q by {{column(step_dimension_1.selection, [&#92;&quot;value&#92;&quot;]).asGrouping()}}; q = foreach q generate {{row(step_dimension_1.selection,[], [&#92;&quot;expression&#92;&quot;,&#92;&quot;value&#92;&quot;]).asProjection()}}, {{row(Step_Measure_2.selection,[],[&#92;&quot;expression&#92;&quot;,&#92;&quot;alias&#92;&quot;]).asProjection()}}; q = order q by {{cell(Step_Measure_2.selection,0,&#92;&quot;alias&#92;&quot;).asString()}} {{cell(Static_Sort_2_1.selection, 0 ,&#92;&quot;value&#92;&quot;).asString()}};q = limit q 2000;&quot;,&quot;measures&quot;:&quot;{{column(Step_Measure_2.selection,[&#92;&quot;cf&#92;&quot;]).asObject()}}&quot;,&quot;autoFilter&quot;:true,&quot;groups&quot;:&quot;{{column(step_dimension_1.selection, [&#92;&quot;value&#92;&quot;]).asObject()}}&quot;}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Static_Dimensions": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;&quot;,&quot;value1&quot;:&quot;&#39;Car_Make&#39;&quot;,&quot;alias1&quot;:&quot;Car_Make&quot;,&quot;label1&quot;:&quot;Car Make&quot;,&quot;value2&quot;:&quot;&#39;Car_Model_Year&#39;&quot;,&quot;alias2&quot;:&quot;Car_Model_Year&quot;,&quot;label2&quot;:&quot;Car Model Year&quot;,&quot;value3&quot;:&quot;&#39;City&#39;&quot;,&quot;alias3&quot;:&quot;City&quot;,&quot;label3&quot;:&quot;City&quot;,&quot;value4&quot;:&quot;&#39;Country&#39;&quot;,&quot;alias4&quot;:&quot;Country&quot;,&quot;label4&quot;:&quot;Country&quot;,&quot;value5&quot;:&quot;&#39;Manager_Name&#39;&quot;,&quot;alias5&quot;:&quot;Manager_Name&quot;,&quot;label5&quot;:&quot;Manager Name&quot;,&quot;value6&quot;:&quot;&#39;Model&#39;&quot;,&quot;alias6&quot;:&quot;Model&quot;,&quot;label6&quot;:&quot;Model&quot;,&quot;value7&quot;:&quot;&#39;Owner_Name&#39;&quot;,&quot;alias7&quot;:&quot;Owner_Name&quot;,&quot;label7&quot;:&quot;Owner Name&quot;,&quot;value8&quot;:&quot;&#39;Stage&#39;&quot;,&quot;alias8&quot;:&quot;Stage&quot;,&quot;label8&quot;:&quot;Stage&quot;,&quot;value9&quot;:&quot;&#39;Region&#39;&quot;,&quot;alias9&quot;:&quot;Region&quot;,&quot;label9&quot;:&quot;Region&quot;,&quot;value10&quot;:&quot;&#39;State&#39;&quot;,&quot;alias10&quot;:&quot;State&quot;,&quot;label10&quot;:&quot;State&quot;,&quot;value11&quot;:&quot;&#39;VP_Name&#39;&quot;,&quot;alias11&quot;:&quot;VP_Name&quot;,&quot;label11&quot;:&quot;VP Name&quot;,&quot;value12&quot;:&quot;&#39;Stage_Sort&#39;&quot;,&quot;alias12&quot;:&quot;Stage_Sort&quot;,&quot;label12&quot;:&quot;Stage Sort&quot;,&quot;datevalue1&quot;:&quot;&#39;Close_Date&#39;&quot;,&quot;datealias1&quot;:&quot;Close_Date&quot;,&quot;datelabel1&quot;:&quot;Close Date&quot;,&quot;datevalue2&quot;:&quot;&#39;Created_Date&#39;&quot;,&quot;datealias2&quot;:&quot;Created_Date&quot;,&quot;datelabel2&quot;:&quot;Created Date&quot;,&quot;datevalue3&quot;:&quot;&#39;Snap_Date&#39;&quot;,&quot;datealias3&quot;:&quot;Snap_Date&quot;,&quot;datelabel3&quot;:&quot;Snap Date&quot;}"
+        ]
+      },
+      "Date_Filter_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;datealias1&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Static_Measure_List": {
+        "broadcastFacet": true,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": true,
+        "values": [
+          "{&quot;display&quot;:&quot;&quot;,&quot;labelkpi1&quot;:&quot;sum of Amount&quot;,&quot;expression1&quot;:&quot;coalesce(sum(&#39;Amount&#39;),0)&quot;,&quot;cfkpi1&quot;:[&quot;sum&quot;,&quot;Amount&quot;],&quot;aliaskpi1&quot;:&quot;sum_Amount&quot;,&quot;labelkpi2&quot;:&quot;avg of Amount&quot;,&quot;expression2&quot;:&quot;coalesce(avg(&#39;Amount&#39;),0)&quot;,&quot;cfkpi2&quot;:[&quot;avg&quot;,&quot;Amount&quot;],&quot;aliaskpi2&quot;:&quot;avg_Amount&quot;,&quot;labelkpi3&quot;:&quot;max of Amount&quot;,&quot;expression3&quot;:&quot;coalesce(max(&#39;Amount&#39;),0)&quot;,&quot;cfkpi3&quot;:[&quot;max&quot;,&quot;Amount&quot;],&quot;aliaskpi3&quot;:&quot;max_Amount&quot;,&quot;labelkpi4&quot;:&quot;min of Amount&quot;,&quot;expression4&quot;:&quot;coalesce(min(&#39;Amount&#39;),0)&quot;,&quot;cfkpi4&quot;:[&quot;min&quot;,&quot;Amount&quot;],&quot;aliaskpi4&quot;:&quot;min_Amount&quot;,&quot;labelkpi5&quot;:&quot;count of Rows&quot;,&quot;expression5&quot;:&quot;coalesce(count(),0)&quot;,&quot;cfkpi5&quot;:[&quot;count&quot;,&quot;*&quot;],&quot;aliaskpi5&quot;:&quot;count&quot;}"
+        ]
+      },
+      "Static_Filter_1": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;All&quot;,&quot;value&quot;:&quot;&#39;Snap_Date&#39; in all&quot;}"
+        ]
+      },
+      "Step_Measure_1": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "label": "Step Measure",
+        "selectMode": "multirequired",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;sum of Amount&quot;,&quot;cf&quot;:[&quot;sum&quot;,&quot;Amount&quot;],&quot;expression&quot;:&quot;sum(&#39;Amount&#39;)&quot;,&quot;alias&quot;:&quot;sum_Amount&quot;}",
+          "{&quot;display&quot;:&quot;avg of Amount&quot;,&quot;cf&quot;:[&quot;avg&quot;,&quot;Amount&quot;],&quot;expression&quot;:&quot;avg(&#39;Amount&#39;)&quot;,&quot;alias&quot;:&quot;avg_Amount&quot;}",
+          "{&quot;display&quot;:&quot;max of Amount&quot;,&quot;cf&quot;:[&quot;max&quot;,&quot;Amount&quot;],&quot;expression&quot;:&quot;max(&#39;Amount&#39;)&quot;,&quot;alias&quot;:&quot;max_Amount&quot;}",
+          "{&quot;display&quot;:&quot;min of Amount&quot;,&quot;cf&quot;:[&quot;min&quot;,&quot;Amount&quot;],&quot;expression&quot;:&quot;min(&#39;Amount&#39;)&quot;,&quot;alias&quot;:&quot;min_Amount&quot;}",
+          "{&quot;display&quot;:&quot;count of Rows&quot;,&quot;cf&quot;:[&quot;count&quot;,&quot;*&quot;],&quot;expression&quot;:&quot;count()&quot;,&quot;alias&quot;:&quot;count&quot;}"
+        ]
+      },
+      "Date_Filter_3": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;datealias3&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Step_Measure_2": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "label": "Step Measure",
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;sum of Amount&quot;,&quot;cf&quot;:[&quot;sum&quot;,&quot;Amount&quot;],&quot;expression&quot;:&quot;coalesce(sum(&#39;Amount&#39;),0)&quot;,&quot;expression2&quot;:&quot;coalesce(sum(q2.&#39;Amount&#39;),0) - coalesce(sum(q1.&#39;Amount&#39;),0)&quot;,&quot;expression3&quot;:&quot;coalesce(100*(coalesce(sum(q2.&#39;Amount&#39;),0) - coalesce(sum(q1.&#39;Amount&#39;),0))/sum(q1.&#39;Amount&#39;),0)&quot;,&quot;alias&quot;:&quot;sum_Amount&quot;}",
+          "{&quot;display&quot;:&quot;avg of Amount&quot;,&quot;cf&quot;:[&quot;avg&quot;,&quot;Amount&quot;],&quot;expression&quot;:&quot;coalesce(avg(&#39;Amount&#39;),0)&quot;,&quot;expression2&quot;:&quot;coalesce(avg(q2.&#39;Amount&#39;),0) - coalesce(avg(q1.&#39;Amount&#39;),0)&quot;,&quot;expression3&quot;:&quot;coalesce(100*(coalesce(avg(q2.&#39;Amount&#39;),0) - coalesce(avg(q1.&#39;Amount&#39;),0))/avg(q1.&#39;Amount&#39;),0)&quot;,&quot;alias&quot;:&quot;avg_Amount&quot;}",
+          "{&quot;display&quot;:&quot;max of Amount&quot;,&quot;cf&quot;:[&quot;max&quot;,&quot;Amount&quot;],&quot;expression&quot;:&quot;coalesce(max(&#39;Amount&#39;),0)&quot;,&quot;expression2&quot;:&quot;coalesce(max(q2.&#39;Amount&#39;),0) - coalesce(max(q1.&#39;Amount&#39;),0)&quot;,&quot;expression3&quot;:&quot;coalesce(100*(coalesce(max(q2.&#39;Amount&#39;),0) - coalesce(max(q1.&#39;Amount&#39;),0))/max(q1.&#39;Amount&#39;),0)&quot;,&quot;alias&quot;:&quot;max_Amount&quot;}",
+          "{&quot;display&quot;:&quot;min of Amount&quot;,&quot;cf&quot;:[&quot;min&quot;,&quot;Amount&quot;],&quot;expression&quot;:&quot;coalesce(min(&#39;Amount&#39;),0)&quot;,&quot;expression2&quot;:&quot;coalesce(min(q2.&#39;Amount&#39;),0) - coalesce(min(q1.&#39;Amount&#39;),0)&quot;,&quot;expression3&quot;:&quot;coalesce(100*(coalesce(min(q2.&#39;Amount&#39;),0) - coalesce(min(q1.&#39;Amount&#39;),0))/ min(q1.&#39;Amount&#39;),0)&quot;,&quot;alias&quot;:&quot;min_Amount&quot;}",
+          "{&quot;display&quot;:&quot;count of Rows&quot;,&quot;cf&quot;:[&quot;count&quot;,&quot;*&quot;],&quot;expression&quot;:&quot;coalesce(count(),0)&quot;,&quot;expression2&quot;:&quot;coalesce(count(q2),0) - coalesce(count(q1),0)&quot;,&quot;expression3&quot;:&quot;coalesce(100*(coalesce(count(q2),0) - coalesce(count(q1),0))/count(q1),0)&quot;,&quot;alias&quot;:&quot;count&quot;}"
+        ]
+      },
+      "Date_Filter_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;{{cell(Static_Dimensions.selection,0, &#92;&quot;datealias2&#92;&quot;).asObject()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Step_Measure_3": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "label": "Step Measure",
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;sum of Amount&quot;,&quot;cf&quot;:[&quot;sum&quot;,&quot;Amount&quot;],&quot;expression&quot;:&quot;coalesce(sum(&#39;Amount&#39;),0)&quot;,&quot;expression2&quot;:&quot;coalesce(sum(q2.&#39;Amount&#39;),0) - coalesce(sum(q1.&#39;Amount&#39;),0)&quot;,&quot;expression3&quot;:&quot;coalesce(100*(coalesce(sum(q2.&#39;Amount&#39;),0) - coalesce(sum(q1.&#39;Amount&#39;),0))/sum(q1.&#39;Amount&#39;),0)&quot;,&quot;alias&quot;:&quot;sum_Amount&quot;}",
+          "{&quot;display&quot;:&quot;avg of Amount&quot;,&quot;cf&quot;:[&quot;avg&quot;,&quot;Amount&quot;],&quot;expression&quot;:&quot;coalesce(avg(&#39;Amount&#39;),0)&quot;,&quot;expression2&quot;:&quot;coalesce(avg(q2.&#39;Amount&#39;),0) - coalesce(avg(q1.&#39;Amount&#39;),0)&quot;,&quot;expression3&quot;:&quot;coalesce(100*(coalesce(avg(q2.&#39;Amount&#39;),0) - coalesce(avg(q1.&#39;Amount&#39;),0))/avg(q1.&#39;Amount&#39;),0)&quot;,&quot;alias&quot;:&quot;avg_Amount&quot;}",
+          "{&quot;display&quot;:&quot;max of Amount&quot;,&quot;cf&quot;:[&quot;max&quot;,&quot;Amount&quot;],&quot;expression&quot;:&quot;coalesce(max(&#39;Amount&#39;),0)&quot;,&quot;expression2&quot;:&quot;coalesce(max(q2.&#39;Amount&#39;),0) - coalesce(max(q1.&#39;Amount&#39;),0)&quot;,&quot;expression3&quot;:&quot;coalesce(100*(coalesce(max(q2.&#39;Amount&#39;),0) - coalesce(max(q1.&#39;Amount&#39;),0))/max(q1.&#39;Amount&#39;),0)&quot;,&quot;alias&quot;:&quot;max_Amount&quot;}",
+          "{&quot;display&quot;:&quot;min of Amount&quot;,&quot;cf&quot;:[&quot;min&quot;,&quot;Amount&quot;],&quot;expression&quot;:&quot;coalesce(min(&#39;Amount&#39;),0)&quot;,&quot;expression2&quot;:&quot;coalesce(min(q2.&#39;Amount&#39;),0) - coalesce(min(q1.&#39;Amount&#39;),0)&quot;,&quot;expression3&quot;:&quot;coalesce(100*(coalesce(min(q2.&#39;Amount&#39;),0) - coalesce(min(q1.&#39;Amount&#39;),0))/ min(q1.&#39;Amount&#39;),0)&quot;,&quot;alias&quot;:&quot;min_Amount&quot;}",
+          "{&quot;display&quot;:&quot;count of Rows&quot;,&quot;cf&quot;:[&quot;count&quot;,&quot;*&quot;],&quot;expression&quot;:&quot;coalesce(count(),0)&quot;,&quot;expression2&quot;:&quot;coalesce(count(q2),0) - coalesce(count(q1),0)&quot;,&quot;expression3&quot;:&quot;coalesce(100*(coalesce(count(q2),0) - coalesce(count(q1),0))/count(q1),0)&quot;,&quot;alias&quot;:&quot;count&quot;}"
+        ]
+      },
+      "Select_type_1": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "label": "Select type",
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;#&quot;,&quot;value&quot;:&quot;Value&quot;}",
+          "{&quot;display&quot;:&quot;%&quot;,&quot;value&quot;:&quot;Percent&quot;}"
+        ]
+      },
+      "step_dimension_1": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": true,
+        "values": [
+          "{&quot;display&quot;:&quot;Car Make&#39;&quot;,&quot;value&quot;:&quot;Car_Make&quot;,&quot;expression&quot;:&quot;&#39;Car_Make&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Car_Make&#39;,q2.&#39;Car_Make&#39;)&quot;}",
+          "{&quot;display&quot;:&quot;Car Model Year&quot;,&quot;value&quot;:&quot;Car_Model_Year&quot;,&quot;expression&quot;:&quot;&#39;Car_Model_Year&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Car_Model_Year&#39;,q2.&#39;Car_Model_Year&#39;)&quot;}",
+          "{&quot;display&quot;:&quot;City&quot;,&quot;value&quot;:&quot;City&quot;,&quot;expression&quot;:&quot;&#39;City&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;City&#39;,q2.&#39;City&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;Country&quot;,&quot;value&quot;:&quot;Country&quot;,&quot;expression&quot;:&quot;&#39;Country&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Country&#39;,q2.&#39;Country&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;Manager Name&quot;,&quot;value&quot;:&quot;Manager_Name&quot;,&quot;expression&quot;:&quot;&#39;Manager_Name&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Manager_Name&#39;,q2.&#39;Manager_Name&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;Model&quot;,&quot;value&quot;:&quot;Model&quot;,&quot;expression&quot;:&quot;&#39;Model&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Model&#39;,q2.&#39;Model&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;Owner Name&quot;,&quot;value&quot;:&quot;Owner_Name&quot;,&quot;expression&quot;:&quot;&#39;Owner_Name&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Owner_Name&#39;,q2.&#39;Owner_Name&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;Stage&quot;,&quot;value&quot;:&quot;Stage&quot;,&quot;expression&quot;:&quot;&#39;Stage&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Stage&#39;,q2.&#39;Stage&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Region&quot;,&quot;expression&quot;:&quot;&#39;Region&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Region&#39;,q2.&#39;Region&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;State&quot;,&quot;value&quot;:&quot;State&quot;,&quot;expression&quot;:&quot;&#39;State&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;State&#39;,q2.&#39;State&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;VP Name&quot;,&quot;value&quot;:&quot;VP_Name&quot;,&quot;expression&quot;:&quot;&#39;VP_Name&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;VP_Name&#39;,q2.&#39;VP_Name&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;Stage Sort&quot;,&quot;value&quot;:&quot;Stage_Sort&quot;,&quot;expression&quot;:&quot;&#39;Stage_Sort&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Stage_Sort&#39;,q2.&#39;Stage_Sort&#39;) &quot;}"
+        ]
+      },
+      "step_dimension_2": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": true,
+        "values": [
+          "{&quot;display&quot;:&quot;Car Make&#39;&quot;,&quot;value&quot;:&quot;Car_Make&quot;,&quot;expression&quot;:&quot;&#39;Car_Make&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Car_Make&#39;,q2.&#39;Car_Make&#39;)&quot;}",
+          "{&quot;display&quot;:&quot;Car Model Year&quot;,&quot;value&quot;:&quot;Car_Model_Year&quot;,&quot;expression&quot;:&quot;&#39;Car_Model_Year&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Car_Model_Year&#39;,q2.&#39;Car_Model_Year&#39;)&quot;}",
+          "{&quot;display&quot;:&quot;City&quot;,&quot;value&quot;:&quot;City&quot;,&quot;expression&quot;:&quot;&#39;City&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;City&#39;,q2.&#39;City&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;Country&quot;,&quot;value&quot;:&quot;Country&quot;,&quot;expression&quot;:&quot;&#39;Country&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Country&#39;,q2.&#39;Country&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;Manager Name&quot;,&quot;value&quot;:&quot;Manager_Name&quot;,&quot;expression&quot;:&quot;&#39;Manager_Name&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Manager_Name&#39;,q2.&#39;Manager_Name&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;Model&quot;,&quot;value&quot;:&quot;Model&quot;,&quot;expression&quot;:&quot;&#39;Model&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Model&#39;,q2.&#39;Model&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;Owner Name&quot;,&quot;value&quot;:&quot;Owner_Name&quot;,&quot;expression&quot;:&quot;&#39;Owner_Name&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Owner_Name&#39;,q2.&#39;Owner_Name&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;Stage&quot;,&quot;value&quot;:&quot;Stage&quot;,&quot;expression&quot;:&quot;&#39;Stage&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Stage&#39;,q2.&#39;Stage&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Region&quot;,&quot;expression&quot;:&quot;&#39;Region&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Region&#39;,q2.&#39;Region&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;State&quot;,&quot;value&quot;:&quot;State&quot;,&quot;expression&quot;:&quot;&#39;State&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;State&#39;,q2.&#39;State&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;VP Name&quot;,&quot;value&quot;:&quot;VP_Name&quot;,&quot;expression&quot;:&quot;&#39;VP_Name&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;VP_Name&#39;,q2.&#39;VP_Name&#39;) &quot;}",
+          "{&quot;display&quot;:&quot;Stage Sort&quot;,&quot;value&quot;:&quot;Stage_Sort&quot;,&quot;expression&quot;:&quot;&#39;Stage_Sort&#39;&quot;,&quot;expression2&quot;:&quot;coalesce(q1.&#39;Stage_Sort&#39;,q2.&#39;Stage_Sort&#39;) &quot;}"
+        ]
+      },
+      "Details_Table": {
+        "broadcastFacet": true,
+        "groups": [],
+        "numbers": [],
+        "query": "q = load &quot;Products_Snapshot&quot;; q = filter q by {{cell(Static_Filter_1.selection,0, &quot;value&quot;).asString()}}; q = filter q by {{column(As_of_Date_2.selection,[&quot;Snap_Date_Year&quot;]).asEquality(&quot;Snap_Date_Year&quot;)}} &amp;&amp; {{column(As_of_Date_2.selection,[&quot;Snap_Date_Month&quot;]).asEquality(&quot;Snap_Date_Month&quot;)}} &amp;&amp; {{column(As_of_Date_2.selection,[&quot;Snap_Date_Day&quot;]).asEquality(&quot;Snap_Date_Day&quot;)}}; q = foreach q generate &#39;Car_Make&#39; as &#39;Car Make&#39;, &#39;Car_Model_Year&#39; as &#39;Car Model Year&#39;, &#39;City&#39; as &#39;City&#39;, &#39;Country&#39; as &#39;Country&#39;, &#39;Manager_Name&#39; as &#39;Manager Name&#39;, &#39;Model&#39; as &#39;Model&#39;, &#39;Owner_Name&#39; as &#39;Owner Name&#39;, &#39;Stage&#39; as &#39;Stage&#39;, &#39;Region&#39; as &#39;Region&#39;, &#39;State&#39; as &#39;State&#39;, &#39;VP_Name&#39; as &#39;VP Name&#39;, &#39;Stage_Sort&#39; as &#39;Stage Sort&#39;;q = limit q 100;",
+        "receiveFacet": true,
+        "selectMode": "single",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "columnProperties": {},
+            "columns": [],
+            "customBulkActions": [],
+            "mode": "fittocontainer"
+          },
+          "type": "table"
+        }
+      },
+      "Static_Sort_2_1": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;Asc&quot;,&quot;value&quot;:&quot;asc&quot;}",
+          "{&quot;display&quot;:&quot;Desc&quot;,&quot;value&quot;:&quot;desc&quot;}"
+        ]
+      },
+      "As_of_Date_1": {
+        "broadcastFacet": false,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "label": "Snap_Date",
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;avg&quot;,&quot;Snap_Date_day_epoch&quot;]],&quot;groups&quot;:[&quot;Snap_Date_Year&quot;,&quot;Snap_Date_Month&quot;,&quot;Snap_Date_Day&quot;],&quot;order&quot;:[[&quot;avg_Snap_Date_day_epoch&quot;,{&quot;ascending&quot;:false}]]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "singlerequired",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Measure_3": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;Products_Snapshot&#92;&quot;; q = group q by all; q1 = foreach q generate &#92;&quot;Value&#92;&quot; as &#39;Type&#39;, {{coalesce(cell(Measure_2.result,0,&#92;&quot;sum_Amount&#92;&quot;),0).asString()}} - {{coalesce(cell(Measure_1.result,0,&#92;&quot;sum_Amount&#92;&quot;),0).asString()}} as &#39;sum_Amount&#39;, {{coalesce(cell(Measure_2.result,0,&#92;&quot;avg_Amount&#92;&quot;),0).asString()}} - {{coalesce(cell(Measure_1.result,0,&#92;&quot;avg_Amount&#92;&quot;),0).asString()}} as &#39;avg_Amount&#39;, {{coalesce(cell(Measure_2.result,0,&#92;&quot;max_Amount&#92;&quot;),0).asString()}} - {{coalesce(cell(Measure_1.result,0,&#92;&quot;max_Amount&#92;&quot;),0).asString()}} as &#39;max_Amount&#39;, {{coalesce(cell(Measure_2.result,0,&#92;&quot;min_Amount&#92;&quot;),0).asString()}} - {{coalesce(cell(Measure_1.result,0,&#92;&quot;min_Amount&#92;&quot;),0).asString()}} as &#39;min_Amount&#39;, ({{coalesce(cell(Measure_2.result,0,&#92;&quot;count&#92;&quot;),0).asString()}} - {{coalesce(cell(Measure_1.result,0,&#92;&quot;count&#92;&quot;),0).asString()}}) as &#39;count&#39;; q2 = foreach q generate &#92;&quot;Percent&#92;&quot; as &#39;Type&#39;, 100*({{coalesce(cell(Measure_2.result,0,&#92;&quot;sum_Amount&#92;&quot;),0).asString()}} - {{coalesce(cell(Measure_1.result,0,&#92;&quot;sum_Amount&#92;&quot;),0).asString()}})/{{coalesce(cell(Measure_1.result,0,&#92;&quot;sum_Amount&#92;&quot;),1).asString()}} as &#39;sum_Amount&#39;, 100*({{coalesce(cell(Measure_2.result,0,&#92;&quot;avg_Amount&#92;&quot;),0).asString()}} - {{coalesce(cell(Measure_1.result,0,&#92;&quot;avg_Amount&#92;&quot;),0).asString()}})/{{coalesce(cell(Measure_1.result,0,&#92;&quot;avg_Amount&#92;&quot;),1).asString()}} as &#39;avg_Amount&#39;, 100*({{coalesce(cell(Measure_2.result,0,&#92;&quot;max_Amount&#92;&quot;),0).asString()}} - {{coalesce(cell(Measure_1.result,0,&#92;&quot;max_Amount&#92;&quot;),0).asString()}})/{{coalesce(cell(Measure_1.result,0,&#92;&quot;max_Amount&#92;&quot;),1).asString()}} as &#39;max_Amount&#39;, 100*({{coalesce(cell(Measure_2.result,0,&#92;&quot;min_Amount&#92;&quot;),0).asString()}} - {{coalesce(cell(Measure_1.result,0,&#92;&quot;min_Amount&#92;&quot;),0).asString()}})/{{coalesce(cell(Measure_1.result,0,&#92;&quot;min_Amount&#92;&quot;),1).asString()}} as &#39;min_Amount&#39;, 100*({{coalesce(cell(Measure_2.result,0,&#92;&quot;count&#92;&quot;),0).asString()}} - {{coalesce(cell(Measure_1.result,0,&#92;&quot;count&#92;&quot;),0).asString()}})/{{coalesce(cell(Measure_1.result,0,&#92;&quot;count&#92;&quot;),1).asString()}} as &#39;count&#39;; final = union q1,q2; final = filter final by &#39;Type&#39; in {{column(Select_type_1.selection,[&#92;&quot;value&#92;&quot;]).asString()}};&quot;,&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;],[&quot;avg&quot;,&quot;Amount&quot;],[&quot;max&quot;,&quot;Amount&quot;],[&quot;min&quot;,&quot;Amount&quot;],[&quot;count&quot;,&quot;*&quot;]],&quot;autoFilter&quot;:true,&quot;groups&quot;:[]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Static_Sort_2_2": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;Asc&quot;,&quot;value&quot;:&quot;asc&quot;}",
+          "{&quot;display&quot;:&quot;Desc&quot;,&quot;value&quot;:&quot;desc&quot;}"
+        ]
+      },
+      "Measure_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;Products_Snapshot&#92;&quot;;&#92;nq = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = filter q by {{column(As_of_Date_2.selection,[&#92;&quot;Snap_Date_Year&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Year&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_2.selection,[&#92;&quot;Snap_Date_Month&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Month&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_2.selection,[&#92;&quot;Snap_Date_Day&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Day&#92;&quot;)}};&#92;n q = group q by all;&#92;n q = foreach q generate {{row(Static_Measure_List.selection, [], [&#92;&quot;expression1&#92;&quot;,&#92;&quot;aliaskpi1&#92;&quot;]).asProjection()}}, {{row(Static_Measure_List.selection, [], [&#92;&quot;expression2&#92;&quot;,&#92;&quot;aliaskpi2&#92;&quot;]).asProjection()}}, {{row(Static_Measure_List.selection, [], [&#92;&quot;expression3&#92;&quot;,&#92;&quot;aliaskpi3&#92;&quot;]).asProjection()}}, {{row(Static_Measure_List.selection, [], [&#92;&quot;expression4&#92;&quot;,&#92;&quot;aliaskpi4&#92;&quot;]).asProjection()}}, {{row(Static_Measure_List.selection, [], [&#92;&quot;expression5&#92;&quot;,&#92;&quot;aliaskpi5&#92;&quot;]).asProjection()}};&quot;,&quot;measures&quot;:[&quot;{{cell(Static_Measure_List.selection,0, &#92;&quot;cfkpi1&#92;&quot;).asObject()}}&quot;,&quot;{{cell(Static_Measure_List.selection,0, &#92;&quot;cfkpi2&#92;&quot;).asObject()}}&quot;,&quot;{{cell(Static_Measure_List.selection,0, &#92;&quot;cfkpi3&#92;&quot;).asObject()}}&quot;,&quot;{{cell(Static_Measure_List.selection,0, &#92;&quot;cfkpi4&#92;&quot;).asObject()}}&quot;,&quot;{{cell(Static_Measure_List.selection,0, &#92;&quot;cfkpi5&#92;&quot;).asObject()}}&quot;],&quot;autoFilter&quot;:true,&quot;groups&quot;:[]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {}
+      },
+      "Static_Sort_2_3": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;Asc&quot;,&quot;value&quot;:&quot;asc&quot;}",
+          "{&quot;display&quot;:&quot;Desc&quot;,&quot;value&quot;:&quot;desc&quot;}"
+        ]
+      },
+      "Measure_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;Products_Snapshot&#92;&quot;;&#92;nq = filter q by {{cell(Static_Filter_1.selection,0, &#92;&quot;value&#92;&quot;).asString()}}; q = filter q by {{column(As_of_Date_1.selection,[&#92;&quot;Snap_Date_Year&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Year&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_1.selection,[&#92;&quot;Snap_Date_Month&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Month&#92;&quot;)}} &amp;&amp; {{column(As_of_Date_1.selection,[&#92;&quot;Snap_Date_Day&#92;&quot;]).asEquality(&#92;&quot;Snap_Date_Day&#92;&quot;)}};&#92;n q = group q by all;&#92;n q = foreach q generate {{row(Static_Measure_List.selection, [], [&#92;&quot;expression1&#92;&quot;,&#92;&quot;aliaskpi1&#92;&quot;]).asProjection()}}, {{row(Static_Measure_List.selection, [], [&#92;&quot;expression2&#92;&quot;,&#92;&quot;aliaskpi2&#92;&quot;]).asProjection()}}, {{row(Static_Measure_List.selection, [], [&#92;&quot;expression3&#92;&quot;,&#92;&quot;aliaskpi3&#92;&quot;]).asProjection()}}, {{row(Static_Measure_List.selection, [], [&#92;&quot;expression4&#92;&quot;,&#92;&quot;aliaskpi4&#92;&quot;]).asProjection()}}, {{row(Static_Measure_List.selection, [], [&#92;&quot;expression5&#92;&quot;,&#92;&quot;aliaskpi5&#92;&quot;]).asProjection()}};&quot;,&quot;measures&quot;:[&quot;{{cell(Static_Measure_List.selection,0, &#92;&quot;cfkpi1&#92;&quot;).asObject()}}&quot;,&quot;{{cell(Static_Measure_List.selection,0, &#92;&quot;cfkpi2&#92;&quot;).asObject()}}&quot;,&quot;{{cell(Static_Measure_List.selection,0, &#92;&quot;cfkpi3&#92;&quot;).asObject()}}&quot;,&quot;{{cell(Static_Measure_List.selection,0, &#92;&quot;cfkpi4&#92;&quot;).asObject()}}&quot;,&quot;{{cell(Static_Measure_List.selection,0, &#92;&quot;cfkpi5&#92;&quot;).asObject()}}&quot;],&quot;autoFilter&quot;:true,&quot;groups&quot;:[]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {}
+      },
+      "As_of_Date_2": {
+        "broadcastFacet": false,
+        "datasets": [
+          {
+            "id": "0Fb6A000000Xl5kSAC",
+            "label": "Products Snapshot",
+            "name": "Products_Snapshot",
+            "url": "/services/data/v44.0/wave/datasets/0Fb6A000000Xl5kSAC"
+          }
+        ],
+        "isGlobal": false,
+        "label": "Snap_Date",
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;avg&quot;,&quot;Snap_Date_day_epoch&quot;]],&quot;groups&quot;:[&quot;Snap_Date_Year&quot;,&quot;Snap_Date_Month&quot;,&quot;Snap_Date_Day&quot;],&quot;order&quot;:[[&quot;avg_Snap_Date_day_epoch&quot;,{&quot;ascending&quot;:false}]]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "singlerequired",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      }
+    },
+    "widgetStyle": {
+      "backgroundColor": "rgba(255, 255, 255, 0)",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "number_12": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": true,
+          "measureField": "min_Amount",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Measure_3",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "number_11": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": true,
+          "measureField": "max_Amount",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Measure_3",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "number_10": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": true,
+          "measureField": "avg_Amount",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Measure_3",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "text_10": {
+        "parameters": {
+          "fontSize": 18,
+          "showActionMenu": true,
+          "text": "Snapshot Delta",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "number_15": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "measureField": "count",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Measure_3",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "number_14": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": true,
+          "measureField": "count",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Measure_2",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "number_13": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": true,
+          "measureField": "count",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Measure_1",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "text_11": {
+        "parameters": {
+          "fontSize": 18,
+          "showActionMenu": true,
+          "text": "Filters",
+          "textAlignment": "center",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "container_1": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "documentId": "",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_2": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "Chart_1_1": {
+        "parameters": {
+          "totalValue": "computeTotal",
+          "showPoints": true,
+          "legend": {
+            "showHeader": true,
+            "show": true,
+            "customSize": "auto",
+            "position": "top-center",
+            "inside": false
+          },
+          "axisMode": "sync",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "time",
+          "missingValue": "connect",
+          "dashLine": {
+            "measures": "",
+            "showDashLine": false
+          },
+          "exploreLink": true,
+          "timeAxis": {
+            "showTitle": true,
+            "showAxis": true,
+            "title": ""
+          },
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "fillArea": true,
+          "showActionMenu": true,
+          "showZero": false,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "valueType": "none",
+          "step": "Chart_1_1",
+          "theme": "dark",
+          "drawArea": {
+            "measure": "",
+            "showDrawArea": false,
+            "bounding1": "",
+            "bounding2": ""
+          }
+        },
+        "type": "chart"
+      },
+      "container_3": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "documentId": "",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_4": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_5": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "text_3": {
+        "parameters": {
+          "fontSize": 18,
+          "showActionMenu": true,
+          "text": "Select Snapshot",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "container_6": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "chart_6": {
+        "parameters": {
+          "autoFitMode": "none",
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": false,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "hbar",
+          "exploreLink": false,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "binValues": false,
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "step": "Chart_2_3",
+          "theme": "dark",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "container_7": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "TA_Logo_transparentTA_HomeScreenpng",
+            "namespace": ""
+          }
+        },
+        "type": "container"
+      },
+      "text_2": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "{{cell(Static_Measure_List.selection,0, &quot;labelkpi1&quot;).asObject()}}",
+          "textAlignment": "right",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "chart_5": {
+        "parameters": {
+          "autoFitMode": "none",
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "hbar",
+          "exploreLink": false,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "binValues": false,
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "step": "Chart_2_2",
+          "theme": "dark",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "text_5": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "{{cell(Static_Measure_List.selection,0, &quot;labelkpi2&quot;).asObject()}}",
+          "textAlignment": "right",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "text_4": {
+        "parameters": {
+          "fontSize": 18,
+          "showActionMenu": true,
+          "text": "Select Snapshot",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "text_7": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "{{cell(Static_Measure_List.selection,0, &quot;labelkpi4&quot;).asObject()}}",
+          "textAlignment": "right",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "chart_2": {
+        "parameters": {
+          "autoFitMode": "none",
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "hbar",
+          "exploreLink": false,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "binValues": false,
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "theme": "dark",
+          "step": "Chart_3_2",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "text_6": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "{{cell(Static_Measure_List.selection,0, &quot;labelkpi3&quot;).asObject()}}",
+          "textAlignment": "right",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "chart_1": {
+        "parameters": {
+          "autoFitMode": "none",
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "hbar",
+          "exploreLink": false,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "binValues": false,
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "theme": "dark",
+          "step": "Chart_3_1",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "text_9": {
+        "parameters": {
+          "fontSize": 18,
+          "showActionMenu": true,
+          "text": "Trend over time by the following measure(s):",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "chart_4": {
+        "parameters": {
+          "autoFitMode": "none",
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "hbar",
+          "exploreLink": false,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "binValues": false,
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "theme": "dark",
+          "step": "Chart_3_3",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "text_8": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "{{cell(Static_Measure_List.selection,0, &quot;labelkpi5&quot;).asObject()}}",
+          "textAlignment": "right",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "chart_3": {
+        "parameters": {
+          "autoFitMode": "none",
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": false,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "hbar",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "binValues": false,
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "step": "Chart_2_1",
+          "theme": "dark",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "dateselector_1": {
+        "parameters": {
+          "absoluteModeEnabled": true,
+          "calendarTypeSwitchingAllowed": false,
+          "defaultFiscalMode": false,
+          "instant": false,
+          "presetsEnabled": false,
+          "relativeModeEnabled": true,
+          "showActionMenu": true,
+          "step": "Date_Filter_1",
+          "title": "{{cell(Static_Dimensions.selection,0, &quot;datelabel1&quot;).asObject()}}"
+        },
+        "type": "dateselector"
+      },
+      "text_1": {
+        "parameters": {
+          "fontSize": 24,
+          "showActionMenu": true,
+          "text": "Production Trending",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "number_5": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": false,
+          "measureField": "avg_Amount",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Measure_1",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "number_4": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": false,
+          "measureField": "max_Amount",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Measure_2",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "number_3": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": false,
+          "measureField": "sum_Amount",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Measure_2",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "listselector_18": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_7",
+          "title": "{{cell(Static_Dimensions.selection,0, &quot;label7&quot;).asObject()}}"
+        },
+        "type": "listselector"
+      },
+      "number_2": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": false,
+          "measureField": "max_Amount",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Measure_1",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "listselector_17": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "showActionMenu": false,
+          "step": "step_dimension_1",
+          "title": "Select Grouping(s)"
+        },
+        "type": "listselector"
+      },
+      "number_1": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": false,
+          "measureField": "sum_Amount",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Measure_1",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "listselector_12": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_12",
+          "title": "{{cell(Static_Dimensions.selection,0, &quot;label12&quot;).asObject()}}"
+        },
+        "type": "listselector"
+      },
+      "listselector_11": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_9",
+          "title": "{{cell(Static_Dimensions.selection,0, &quot;label9&quot;).asObject()}}"
+        },
+        "type": "listselector"
+      },
+      "listselector_10": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_11",
+          "title": "{{cell(Static_Dimensions.selection,0, &quot;label11&quot;).asObject()}}"
+        },
+        "type": "listselector"
+      },
+      "listselector_16": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_8",
+          "title": "{{cell(Static_Dimensions.selection,0, &quot;label8&quot;).asObject()}}"
+        },
+        "type": "listselector"
+      },
+      "listselector_15": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_3",
+          "title": "{{cell(Static_Dimensions.selection,0, &quot;label3&quot;).asObject()}}"
+        },
+        "type": "listselector"
+      },
+      "listselector_14": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "showActionMenu": false,
+          "step": "Step_Measure_2",
+          "title": "Select Measure"
+        },
+        "type": "listselector"
+      },
+      "listselector_13": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_6",
+          "title": "{{cell(Static_Dimensions.selection,0, &quot;label6&quot;).asObject()}}"
+        },
+        "type": "listselector"
+      },
+      "number_9": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": true,
+          "measureField": "sum_Amount",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Measure_3",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "number_8": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": false,
+          "measureField": "min_Amount",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Measure_2",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "number_7": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": false,
+          "measureField": "avg_Amount",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Measure_2",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "number_6": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": false,
+          "measureField": "min_Amount",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Measure_1",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "dateselector_2": {
+        "parameters": {
+          "absoluteModeEnabled": true,
+          "calendarTypeSwitchingAllowed": false,
+          "defaultFiscalMode": false,
+          "instant": false,
+          "presetsEnabled": false,
+          "relativeModeEnabled": true,
+          "showActionMenu": true,
+          "step": "Date_Filter_2",
+          "title": "{{cell(Static_Dimensions.selection,0, &quot;datelabel2&quot;).asObject()}}"
+        },
+        "type": "dateselector"
+      },
+      "listselector_21": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "showActionMenu": false,
+          "step": "Step_Measure_3",
+          "title": "Select Measure"
+        },
+        "type": "listselector"
+      },
+      "dateselector_3": {
+        "parameters": {
+          "absoluteModeEnabled": true,
+          "calendarTypeSwitchingAllowed": false,
+          "defaultFiscalMode": false,
+          "instant": false,
+          "presetsEnabled": false,
+          "relativeModeEnabled": true,
+          "showActionMenu": true,
+          "step": "Date_Filter_3",
+          "title": "{{cell(Static_Dimensions.selection,0, &quot;datelabel3&quot;).asObject()}}"
+        },
+        "type": "dateselector"
+      },
+      "listselector_20": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "showActionMenu": false,
+          "step": "step_dimension_2",
+          "title": "Select Grouping(s)"
+        },
+        "type": "listselector"
+      },
+      "listselector_7": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_10",
+          "title": "{{cell(Static_Dimensions.selection,0, &quot;label10&quot;).asObject()}}"
+        },
+        "type": "listselector"
+      },
+      "listselector_6": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_2",
+          "title": "{{cell(Static_Dimensions.selection,0, &quot;label2&quot;).asObject()}}"
+        },
+        "type": "listselector"
+      },
+      "listselector_9": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_5",
+          "title": "{{cell(Static_Dimensions.selection,0, &quot;label5&quot;).asObject()}}"
+        },
+        "type": "listselector"
+      },
+      "listselector_8": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_4",
+          "title": "{{cell(Static_Dimensions.selection,0, &quot;label4&quot;).asObject()}}"
+        },
+        "type": "listselector"
+      },
+      "listselector_3": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Filter_1",
+          "title": "{{cell(Static_Dimensions.selection,0, &quot;label1&quot;).asObject()}}"
+        },
+        "type": "listselector"
+      },
+      "listselector_2": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Static_Filter_1",
+          "title": "Filter_Records"
+        },
+        "type": "listselector"
+      },
+      "listselector_5": {
+        "parameters": {
+          "compact": false,
+          "displayTemplate": "[&quot;Snap_Date_Year&quot;,&quot;Snap_Date_Month&quot;,&quot;Snap_Date_Day&quot;]",
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "none",
+          "showActionMenu": false,
+          "step": "As_of_Date_2",
+          "title": ""
+        },
+        "type": "listselector"
+      },
+      "listselector_4": {
+        "parameters": {
+          "compact": false,
+          "displayTemplate": "[&quot;Snap_Date_Year&quot;,&quot;Snap_Date_Month&quot;,&quot;Snap_Date_Day&quot;]",
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "none",
+          "showActionMenu": false,
+          "step": "As_of_Date_1",
+          "title": ""
+        },
+        "type": "listselector"
+      },
+      "table_1": {
+        "parameters": {
+          "borderColor": "#44A2F5",
+          "borderWidth": 4,
+          "cell": {
+            "backgroundColor": "#16325c",
+            "fontColor": "#ffffff",
+            "fontSize": 12
+          },
+          "columnProperties": {},
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": true,
+          "header": {
+            "backgroundColor": "#000000",
+            "fontColor": "#ffffff",
+            "fontSize": 12
+          },
+          "innerMajorBorderColor": "#54698d",
+          "innerMinorBorderColor": "#54698d",
+          "mode": "fittocontainer",
+          "numberOfLines": 1,
+          "showActionMenu": true,
+          "step": "Details_Table",
+          "verticalPadding": 8
+        },
+        "type": "table"
+      },
+      "pillbox_2": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "showActionMenu": true,
+          "step": "Select_type_1"
+        },
+        "type": "pillbox"
+      },
+      "pillbox_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "showActionMenu": true,
+          "step": "Static_Sort_2_3"
+        },
+        "type": "pillbox"
+      },
+      "pillbox_4": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "showActionMenu": true,
+          "step": "Static_Sort_2_2"
+        },
+        "type": "pillbox"
+      },
+      "pillbox_6": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "showActionMenu": true,
+          "step": "Static_Sort_2_1"
+        },
+        "type": "pillbox"
+      },
+      "listselector_1": {
+        "parameters": {
+          "compact": false,
+          "expanded": true,
+          "exploreLink": false,
+          "instant": false,
+          "showActionMenu": false,
+          "step": "Step_Measure_1",
+          "title": "Select Measure(s)"
+        },
+        "type": "listselector"
+      }
+    }
+  },
+  "type": "dashboard",
+  "url": "/services/data/v44.0/wave/dashboards/0FK6A000000UpyyWAC"
+}
